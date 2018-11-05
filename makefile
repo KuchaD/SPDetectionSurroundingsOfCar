@@ -5,9 +5,10 @@ SDIR=src
 LDIR=lib
 BDIR=bin
 
+
 CC=g++
-CFLAGS=-Wall -ggdb
-LIBRARIES=-lpthread -ldlib -lX11
+CFLAGS=-Wall -ggdb -g `pkg-config --cflags opencv`
+LIBRARIES=-lpthread -ldlib `pkg-config --libs opencv`
 
 SOURCES=$(wildcard $(SDIR)/*.cpp )
 OBJECTS=$(SOURCES:$(SDIR)/%.cpp=$(ODIR)/%.o)
