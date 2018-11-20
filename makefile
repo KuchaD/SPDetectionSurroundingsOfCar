@@ -6,10 +6,9 @@ LDIR=lib
 BDIR=bin
 
 
-CC=g++
+CC=g++ 
 CFLAGS=-Wall -ggdb -g `pkg-config --cflags opencv`
-LIBRARIES=-lpthread -ldlib `pkg-config --libs opencv`
-
+LIBRARIES=-lpthread -ldlib `pkg-config --libs opencv` -lpng 
 SOURCES=$(wildcard $(SDIR)/*.cpp )
 OBJECTS=$(SOURCES:$(SDIR)/%.cpp=$(ODIR)/%.o)
 BINARY=$(BDIR)/$(NAME)
