@@ -39,3 +39,5 @@ Release
 *.vbproj.user
 ipch
 *sdf
+
+bin/

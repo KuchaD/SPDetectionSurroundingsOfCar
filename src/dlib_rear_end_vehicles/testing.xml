@@ -1,0 +1,1265 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='normal_rgb_images/tme11/Left/013207-L.jpg'>
+    <box top='350' left='22' width='174' height='102'/>
+    <box top='338' left='286' width='134' height='111'/>
+    <box top='332' left='215' width='79' height='70'/>
+    <box top='324' left='562' width='123' height='102'/>
+    <box top='342' left='387' width='65' height='50'/>
+    <box top='340' left='467' width='36' height='28'/>
+    <box top='342' left='526' width='42' height='38'/>
+    <box top='299' left='484' width='55' height='58'/>
+    <box top='312' left='394' width='55' height='47'/>
+    <box top='337' left='399' width='40' height='35' ignore='1'/>
+    <box top='311' left='551' width='51' height='47' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013280-L.jpg'>
+    <box top='335' left='-44' width='229' height='176'/>
+    <box top='331' left='350' width='111' height='100'/>
+    <box top='319' left='260' width='88' height='84'/>
+    <box top='279' left='190' width='139' height='107'/>
+    <box top='330' left='566' width='87' height='70'/>
+    <box top='333' left='473' width='50' height='42'/>
+    <box top='331' left='539' width='28' height='23'/>
+    <box top='297' left='546' width='48' height='51'/>
+    <box top='329' left='470' width='40' height='34' ignore='1'/>
+    <box top='305' left='597' width='36' height='33' ignore='1'/>
+    <box top='322' left='572' width='43' height='36' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013322-L.jpg'>
+    <box top='342' left='-12' width='286' height='180'/>
+    <box top='326' left='272' width='90' height='77'/>
+    <box top='338' left='374' width='104' height='92'/>
+    <box top='340' left='458' width='42' height='37'/>
+    <box top='341' left='522' width='51' height='41'/>
+    <box top='309' left='532' width='48' height='49' ignore='1'/>
+    <box top='335' left='566' width='32' height='31'/>
+    <box top='336' left='593' width='23' height='21'/>
+    <box top='313' left='583' width='45' height='35' ignore='1'/>
+    <box top='339' left='520' width='25' height='25' ignore='1'/>
+    <box top='338' left='469' width='34' height='29' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013352-L.jpg'>
+    <box top='344' left='110' width='267' height='182'/>
+    <box top='346' left='361' width='95' height='83'/>
+    <box top='336' left='303' width='77' height='69'/>
+    <box top='349' left='457' width='40' height='31'/>
+    <box top='345' left='472' width='32' height='27' ignore='1'/>
+    <box top='352' left='527' width='39' height='29'/>
+    <box top='346' left='518' width='22' height='19'/>
+    <box top='342' left='570' width='28' height='25'/>
+    <box top='317' left='535' width='47' height='38'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013367-L.jpg'>
+    <box top='344' left='174' width='268' height='189'/>
+    <box top='344' left='343' width='111' height='78' ignore='1'/>
+    <box top='334' left='327' width='72' height='59' ignore='1'/>
+    <box top='347' left='461' width='40' height='33'/>
+    <box top='342' left='477' width='32' height='27'/>
+    <box top='348' left='529' width='36' height='29'/>
+    <box top='341' left='522' width='23' height='20'/>
+    <box top='311' left='541' width='46' height='43'/>
+    <box top='338' left='580' width='26' height='21'/>
+    <box top='317' left='592' width='34' height='32' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013465-L.jpg'>
+    <box top='339' left='118' width='109' height='51'/>
+    <box top='347' left='366' width='77' height='65'/>
+    <box top='336' left='430' width='56' height='52'/>
+    <box top='347' left='559' width='69' height='53'/>
+    <box top='348' left='495' width='33' height='28'/>
+    <box top='347' left='516' width='32' height='25'/>
+    <box top='322' left='558' width='82' height='43' ignore='1'/>
+    <box top='348' left='542' width='18' height='18' ignore='1'/>
+    <box top='351' left='474' width='25' height='25' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013495-L.jpg'>
+    <box top='349' left='212' width='93' height='56'/>
+    <box top='353' left='339' width='84' height='70'/>
+    <box top='346' left='422' width='57' height='57'/>
+    <box top='357' left='547' width='50' height='39'/>
+    <box top='361' left='486' width='33' height='28'/>
+    <box top='356' left='507' width='30' height='28'/>
+    <box top='333' left='532' width='38' height='44' ignore='1'/>
+    <box top='335' left='565' width='47' height='33' ignore='1'/>
+    <box top='361' left='471' width='19' height='19' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013561-L.jpg'>
+    <box top='324' left='605' width='204' height='137'/>
+    <box top='340' left='235' width='116' height='95'/>
+    <box top='333' left='414' width='56' height='53'/>
+    <box top='345' left='401' width='20' height='20' ignore='1'/>
+    <box top='341' left='512' width='35' height='27'/>
+    <box top='340' left='495' width='18' height='15' ignore='1'/>
+    <box top='341' left='449' width='27' height='26' ignore='1'/>
+    <box top='343' left='469' width='13' height='14' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013672-L.jpg'>
+    <box top='337' left='146' width='21' height='18' ignore='1'/>
+    <box top='318' left='266' width='126' height='111'/>
+    <box top='339' left='363' width='66' height='65'/>
+    <box top='347' left='507' width='71' height='54'/>
+    <box top='361' left='451' width='21' height='16'/>
+    <box top='362' left='438' width='14' height='13' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013717-L.jpg'>
+    <box top='305' left='291' width='150' height='138'/>
+    <box top='353' left='491' width='52' height='40'/>
+    <box top='360' left='460' width='18' height='14' ignore='1'/>
+    <box top='360' left='450' width='13' height='12' ignore='1'/>
+    <box top='-26' left='740' width='699' height='723' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013979-L.jpg'>
+    <box top='299' left='278' width='177' height='164'/>
+    <box top='331' left='461' width='56' height='53'/>
+    <box top='-42' left='754' width='983' height='739' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013980-L.jpg'>
+    <box top='298' left='282' width='177' height='164'/>
+    <box top='330' left='461' width='55' height='53'/>
+    <box top='-41' left='749' width='981' height='737' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013981-L.jpg'>
+    <box top='297' left='277' width='181' height='164'/>
+    <box top='329' left='462' width='54' height='52'/>
+    <box top='-38' left='750' width='967' height='726' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013982-L.jpg'>
+    <box top='296' left='281' width='181' height='164'/>
+    <box top='328' left='462' width='54' height='52'/>
+    <box top='-38' left='731' width='980' height='724' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013983-L.jpg'>
+    <box top='296' left='278' width='178' height='164'/>
+    <box top='328' left='462' width='54' height='52'/>
+    <box top='-38' left='727' width='953' height='721' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013984-L.jpg'>
+    <box top='298' left='274' width='178' height='164'/>
+    <box top='330' left='461' width='53' height='51'/>
+    <box top='-38' left='723' width='926' height='722' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013985-L.jpg'>
+    <box top='301' left='275' width='178' height='164'/>
+    <box top='333' left='461' width='52' height='51'/>
+    <box top='-35' left='712' width='907' height='720' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/013986-L.jpg'>
+    <box top='304' left='279' width='170' height='163'/>
+    <box top='336' left='461' width='51' height='50'/>
+    <box top='-35' left='706' width='882' height='720' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/014067-L.jpg'>
+    <box top='157' left='541' width='255' height='284'/>
+    <box top='319' left='328' width='142' height='134'/>
+    <box top='364' left='305' width='24' height='23'/>
+    <box top='340' left='289' width='39' height='35'/>
+    <box top='347' left='258' width='26' height='23' ignore='1'/>
+    <box top='318' left='956' width='757' height='499' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/014109-L.jpg'>
+    <box top='314' left='633' width='316' height='227'/>
+    <box top='223' left='511' width='177' height='206'/>
+    <box top='323' left='347' width='132' height='123'/>
+    <box top='348' left='302' width='41' height='41'/>
+    <box top='361' left='265' width='26' height='23'/>
+    <box top='336' left='211' width='51' height='38'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/014262-L.jpg'>
+    <box top='312' left='297' width='107' height='105'/>
+    <box top='334' left='452' width='95' height='71'/>
+    <box top='284' left='365' width='81' height='93'/>
+    <box top='344' left='263' width='23' height='21'/>
+    <box top='338' left='287' width='44' height='41' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/014357-L.jpg'>
+    <box top='318' left='592' width='216' height='156'/>
+    <box top='321' left='311' width='95' height='91'/>
+    <box top='341' left='398' width='51' height='46'/>
+    <box top='349' left='283' width='29' height='25'/>
+    <box top='306' left='339' width='61' height='72' ignore='1'/>
+    <box top='347' left='199' width='21' height='18' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/014461-L.jpg'>
+    <box top='326' left='312' width='90' height='82'/>
+    <box top='345' left='436' width='68' height='50'/>
+    <box top='339' left='561' width='162' height='102'/>
+    <box top='350' left='272' width='24' height='21'/>
+    <box top='318' left='300' width='44' height='49'/>
+    <box top='350' left='212' width='22' height='19'/>
+    <box top='346' left='227' width='16' height='14'/>
+    <box top='331' left='211' width='22' height='26' ignore='1'/>
+    <box top='332' left='192' width='26' height='26' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/014471-L.jpg'>
+    <box top='323' left='312' width='90' height='91'/>
+    <box top='339' left='541' width='141' height='93'/>
+    <box top='343' left='429' width='59' height='47'/>
+    <box top='347' left='274' width='26' height='21'/>
+    <box top='315' left='300' width='42' height='48'/>
+    <box top='347' left='210' width='24' height='18'/>
+    <box top='343' left='237' width='16' height='15' ignore='1'/>
+    <box top='328' left='223' width='19' height='24' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/014495-L.jpg'>
+    <box top='305' left='776' width='372' height='250'/>
+    <box top='340' left='512' width='104' height='75'/>
+    <box top='339' left='416' width='54' height='46'/>
+    <box top='320' left='328' width='84' height='85'/>
+    <box top='342' left='271' width='15' height='13'/>
+    <box top='344' left='290' width='23' height='20'/>
+    <box top='338' left='315' width='38' height='37' ignore='1'/>
+    <box top='314' left='314' width='37' height='51'/>
+    <box top='328' left='257' width='21' height='28'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Left/014510-L.jpg'>
+    <box top='328' left='676' width='260' height='160'/>
+    <box top='344' left='502' width='93' height='66'/>
+    <box top='342' left='418' width='47' height='40'/>
+    <box top='324' left='338' width='81' height='81'/>
+    <box top='340' left='322' width='38' height='37'/>
+    <box top='346' left='305' width='23' height='22'/>
+    <box top='345' left='295' width='14' height='14' ignore='1'/>
+    <box top='331' left='281' width='23' height='26'/>
+    <box top='319' left='330' width='37' height='47' ignore='1'/>
+    <box top='342' left='143' width='36' height='28' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013073-R.jpg'>
+    <box top='378' left='524' width='57' height='29' ignore='1'/>
+    <box top='367' left='329' width='91' height='83'/>
+    <box top='374' left='-43' width='175' height='124'/>
+    <box top='360' left='200' width='50' height='51'/>
+    <box top='331' left='238' width='60' height='64'/>
+    <box top='370' left='313' width='49' height='44'/>
+    <box top='369' left='299' width='38' height='31'/>
+    <box top='368' left='392' width='44' height='31' ignore='1'/>
+    <box top='371' left='176' width='24' height='20' ignore='1'/>
+    <box top='346' left='185' width='37' height='36' ignore='1'/>
+    <box top='351' left='861' width='115' height='52' ignore='1'/>
+    <box top='340' left='833' width='30' height='17' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013156-R.jpg'>
+    <box top='180' left='870' width='579' height='362' ignore='1'/>
+    <box top='371' left='204' width='66' height='48'/>
+    <box top='359' left='334' width='128' height='113'/>
+    <box top='362' left='264' width='32' height='38'/>
+    <box top='331' left='321' width='52' height='61'/>
+    <box top='368' left='327' width='58' height='53' ignore='1'/>
+    <box top='368' left='553' width='99' height='64'/>
+    <box top='359' left='485' width='64' height='52'/>
+    <box top='345' left='281' width='37' height='42'/>
+    <box top='347' left='256' width='28' height='36' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013168-R.jpg'>
+    <box top='359' left='332' width='129' height='117'/>
+    <box top='368' left='561' width='113' height='69'/>
+    <box top='357' left='496' width='67' height='55'/>
+    <box top='336' left='-134' width='229' height='185' ignore='1'/>
+    <box top='375' left='220' width='63' height='42'/>
+    <box top='362' left='267' width='30' height='38'/>
+    <box top='329' left='318' width='52' height='63'/>
+    <box top='344' left='272' width='38' height='38'/>
+    <box top='345' left='247' width='26' height='33'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013292-R.jpg'>
+    <box top='357' left='542' width='284' height='177'/>
+    <box top='364' left='290' width='112' height='93'/>
+    <box top='368' left='168' width='69' height='53'/>
+    <box top='347' left='427' width='93' height='84'/>
+    <box top='291' left='530' width='162' height='125'/>
+    <box top='366' left='253' width='26' height='19'/>
+    <box top='367' left='284' width='39' height='38' ignore='1'/>
+    <box top='332' left='222' width='51' height='47' ignore='1'/>
+    <box top='341' left='187' width='45' height='31' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013293-R.jpg'>
+    <box top='360' left='540' width='285' height='179'/>
+    <box top='364' left='287' width='111' height='93'/>
+    <box top='368' left='170' width='72' height='55'/>
+    <box top='349' left='427' width='89' height='80'/>
+    <box top='290' left='534' width='164' height='127'/>
+    <box top='366' left='254' width='25' height='19'/>
+    <box top='367' left='283' width='39' height='38' ignore='1'/>
+    <box top='332' left='222' width='52' height='47' ignore='1'/>
+    <box top='341' left='188' width='44' height='31' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013294-R.jpg'>
+    <box top='360' left='539' width='286' height='179'/>
+    <box top='364' left='286' width='111' height='93'/>
+    <box top='366' left='173' width='69' height='56'/>
+    <box top='349' left='427' width='89' height='80'/>
+    <box top='289' left='539' width='168' height='128'/>
+    <box top='366' left='255' width='25' height='19'/>
+    <box top='367' left='283' width='38' height='38' ignore='1'/>
+    <box top='331' left='223' width='54' height='49' ignore='1'/>
+    <box top='340' left='188' width='47' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013295-R.jpg'>
+    <box top='359' left='537' width='287' height='180'/>
+    <box top='363' left='286' width='110' height='93'/>
+    <box top='363' left='176' width='67' height='58'/>
+    <box top='348' left='427' width='89' height='80'/>
+    <box top='287' left='541' width='177' height='129'/>
+    <box top='365' left='256' width='25' height='19'/>
+    <box top='366' left='284' width='37' height='38' ignore='1'/>
+    <box top='330' left='224' width='55' height='50' ignore='1'/>
+    <box top='339' left='189' width='47' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013296-R.jpg'>
+    <box top='358' left='536' width='287' height='180'/>
+    <box top='359' left='286' width='114' height='96'/>
+    <box top='361' left='178' width='67' height='58'/>
+    <box top='345' left='427' width='93' height='83'/>
+    <box top='283' left='549' width='178' height='132'/>
+    <box top='364' left='257' width='25' height='19'/>
+    <box top='365' left='284' width='37' height='38' ignore='1'/>
+    <box top='329' left='225' width='54' height='49' ignore='1'/>
+    <box top='338' left='189' width='48' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013297-R.jpg'>
+    <box top='356' left='535' width='287' height='181'/>
+    <box top='357' left='286' width='114' height='96'/>
+    <box top='359' left='181' width='66' height='58'/>
+    <box top='344' left='427' width='93' height='82'/>
+    <box top='278' left='553' width='183' height='135'/>
+    <box top='362' left='257' width='26' height='20'/>
+    <box top='363' left='284' width='37' height='38' ignore='1'/>
+    <box top='327' left='225' width='55' height='50' ignore='1'/>
+    <box top='337' left='189' width='49' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013479-R.jpg'>
+    <box top='368' left='357' width='78' height='66'/>
+    <box top='358' left='539' width='96' height='52'/>
+    <box top='360' left='326' width='52' height='53'/>
+    <box top='376' left='293' width='33' height='27'/>
+    <box top='371' left='193' width='60' height='45'/>
+    <box top='349' left='242' width='36' height='42'/>
+    <box top='374' left='278' width='29' height='25'/>
+    <box top='358' left='212' width='28' height='36' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013563-R.jpg'>
+    <box top='352' left='-32' width='186' height='144'/>
+    <box top='360' left='426' width='111' height='98'/>
+    <box top='347' left='481' width='75' height='65'/>
+    <box top='369' left='408' width='18' height='16'/>
+    <box top='356' left='338' width='53' height='55'/>
+    <box top='364' left='312' width='19' height='15'/>
+    <box top='365' left='272' width='32' height='29'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013589-R.jpg'>
+    <box top='370' left='485' width='124' height='102'/>
+    <box top='369' left='351' width='58' height='57'/>
+    <box top='379' left='312' width='30' height='24'/>
+    <box top='373' left='67' width='146' height='100'/>
+    <box top='354' left='476' width='76' height='73' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013608-R.jpg'>
+    <box top='367' left='544' width='146' height='123'/>
+    <box top='354' left='476' width='84' height='77'/>
+    <box top='372' left='127' width='119' height='84'/>
+    <box top='365' left='365' width='53' height='56'/>
+    <box top='377' left='338' width='24' height='19'/>
+    <box top='373' left='389' width='38' height='36' ignore='1'/>
+    <box top='361' left='442' width='34' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013951-R.jpg'>
+    <box top='325' left='269' width='183' height='163'/>
+    <box top='367' left='427' width='36' height='35' ignore='1'/>
+    <box top='368' left='464' width='17' height='19' ignore='1'/>
+    <box top='365' left='482' width='25' height='23' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013952-R.jpg'>
+    <box top='324' left='274' width='185' height='165'/>
+    <box top='367' left='429' width='35' height='34' ignore='1'/>
+    <box top='368' left='465' width='17' height='19' ignore='1'/>
+    <box top='364' left='483' width='26' height='24' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013953-R.jpg'>
+    <box top='325' left='276' width='185' height='165'/>
+    <box top='368' left='430' width='35' height='34' ignore='1'/>
+    <box top='369' left='466' width='16' height='19' ignore='1'/>
+    <box top='365' left='484' width='26' height='24' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013954-R.jpg'>
+    <box top='325' left='277' width='185' height='166'/>
+    <box top='368' left='432' width='35' height='35' ignore='1'/>
+    <box top='370' left='467' width='16' height='19' ignore='1'/>
+    <box top='365' left='486' width='25' height='24' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/013955-R.jpg'>
+    <box top='325' left='273' width='190' height='167'/>
+    <box top='368' left='433' width='35' height='35' ignore='1'/>
+    <box top='369' left='468' width='16' height='19' ignore='1'/>
+    <box top='364' left='487' width='25' height='24' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014048-R.jpg'>
+    <box top='326' left='294' width='149' height='144'/>
+    <box top='127' left='-92' width='296' height='369'/>
+    <box top='381' left='476' width='26' height='23'/>
+    <box top='377' left='433' width='21' height='21' ignore='1'/>
+    <box top='358' left='475' width='37' height='35' ignore='1'/>
+    <box top='365' left='522' width='24' height='22' ignore='1'/>
+    <box top='355' left='490' width='37' height='37' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014370-R.jpg'>
+    <box top='356' left='28' width='176' height='121'/>
+    <box top='342' left='369' width='93' height='92'/>
+    <box top='361' left='462' width='39' height='38'/>
+    <box top='368' left='507' width='29' height='21'/>
+    <box top='331' left='425' width='56' height='64'/>
+    <box top='366' left='600' width='16' height='16'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014381-R.jpg'>
+    <box top='366' left='96' width='145' height='103'/>
+    <box top='348' left='372' width='94' height='93'/>
+    <box top='368' left='463' width='41' height='41'/>
+    <box top='374' left='512' width='29' height='20'/>
+    <box top='370' left='604' width='20' height='18'/>
+    <box top='338' left='435' width='57' height='64'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014431-R.jpg'>
+    <box top='367' left='259' width='83' height='64'/>
+    <box top='351' left='395' width='88' height='83'/>
+    <box top='365' left='480' width='39' height='37'/>
+    <box top='362' left='-114' width='223' height='185'/>
+    <box top='372' left='532' width='26' height='18'/>
+    <box top='339' left='476' width='47' height='54'/>
+    <box top='368' left='609' width='18' height='17'/>
+    <box top='350' left='625' width='41' height='26' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014507-R.jpg'>
+    <box top='366' left='-164' width='222' height='186' ignore='1'/>
+    <box top='369' left='186' width='103' height='66'/>
+    <box top='343' left='372' width='86' height='82'/>
+    <box top='364' left='342' width='46' height='44'/>
+    <box top='360' left='454' width='37' height='35'/>
+    <box top='337' left='457' width='39' height='52'/>
+    <box top='363' left='497' width='22' height='20'/>
+    <box top='363' left='519' width='16' height='13'/>
+    <box top='347' left='526' width='24' height='25'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014533-R.jpg'>
+    <box top='377' left='4' width='173' height='108'/>
+    <box top='384' left='227' width='85' height='55'/>
+    <box top='360' left='368' width='82' height='77'/>
+    <box top='381' left='342' width='36' height='37'/>
+    <box top='375' left='445' width='33' height='36'/>
+    <box top='380' left='469' width='22' height='22'/>
+    <box top='365' left='487' width='20' height='25'/>
+    <box top='354' left='539' width='80' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014534-R.jpg'>
+    <box top='376' left='10' width='177' height='112'/>
+    <box top='385' left='228' width='85' height='55'/>
+    <box top='361' left='368' width='82' height='77'/>
+    <box top='382' left='341' width='37' height='37'/>
+    <box top='375' left='444' width='33' height='37'/>
+    <box top='381' left='468' width='22' height='22'/>
+    <box top='366' left='485' width='21' height='25'/>
+    <box top='355' left='538' width='80' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014535-R.jpg'>
+    <box top='375' left='16' width='172' height='109'/>
+    <box top='385' left='233' width='80' height='52'/>
+    <box top='361' left='371' width='81' height='76'/>
+    <box top='381' left='342' width='37' height='37'/>
+    <box top='374' left='444' width='33' height='37'/>
+    <box top='380' left='468' width='22' height='22'/>
+    <box top='365' left='484' width='21' height='25'/>
+    <box top='354' left='538' width='75' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014536-R.jpg'>
+    <box top='375' left='23' width='169' height='107'/>
+    <box top='382' left='234' width='80' height='52'/>
+    <box top='360' left='374' width='80' height='74'/>
+    <box top='378' left='342' width='37' height='37'/>
+    <box top='372' left='444' width='32' height='36'/>
+    <box top='378' left='468' width='22' height='22'/>
+    <box top='363' left='483' width='21' height='24'/>
+    <box top='352' left='538' width='72' height='32' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014537-R.jpg'>
+    <box top='372' left='30' width='166' height='106'/>
+    <box top='380' left='234' width='82' height='51'/>
+    <box top='358' left='375' width='80' height='73'/>
+    <box top='375' left='342' width='37' height='37'/>
+    <box top='370' left='445' width='31' height='35'/>
+    <box top='376' left='468' width='22' height='21'/>
+    <box top='360' left='482' width='21' height='24'/>
+    <box top='349' left='537' width='71' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014538-R.jpg'>
+    <box top='369' left='37' width='163' height='105'/>
+    <box top='377' left='234' width='84' height='52'/>
+    <box top='352' left='376' width='84' height='77'/>
+    <box top='372' left='342' width='38' height='37'/>
+    <box top='368' left='446' width='30' height='34'/>
+    <box top='374' left='468' width='22' height='21'/>
+    <box top='358' left='481' width='21' height='24'/>
+    <box top='347' left='537' width='68' height='32' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014539-R.jpg'>
+    <box top='369' left='43' width='161' height='103'/>
+    <box top='375' left='234' width='85' height='53'/>
+    <box top='350' left='378' width='85' height='78'/>
+    <box top='370' left='343' width='38' height='37'/>
+    <box top='366' left='447' width='30' height='34'/>
+    <box top='372' left='468' width='22' height='21'/>
+    <box top='357' left='481' width='21' height='24'/>
+    <box top='345' left='536' width='68' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014540-R.jpg'>
+    <box top='367' left='47' width='171' height='109'/>
+    <box top='376' left='238' width='83' height='52'/>
+    <box top='350' left='381' width='84' height='78'/>
+    <box top='370' left='345' width='37' height='37'/>
+    <box top='365' left='447' width='31' height='35'/>
+    <box top='372' left='467' width='23' height='21'/>
+    <box top='357' left='480' width='21' height='24'/>
+    <box top='345' left='538' width='59' height='33' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme11/Right/014593-R.jpg'>
+    <box top='373' left='21' width='158' height='116'/>
+    <box top='370' left='188' width='98' height='67'/>
+    <box top='374' left='286' width='60' height='44'/>
+    <box top='350' left='365' width='83' height='77'/>
+    <box top='347' left='455' width='38' height='42'/>
+    <box top='374' left='330' width='36' height='31'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/024589-L.jpg'>
+    <box top='330' left='385' width='79' height='83'/>
+    <box top='337' left='247' width='75' height='64'/>
+    <box top='293' left='139' width='101' height='101'/>
+    <box top='332' left='326' width='35' height='35'/>
+    <box top='330' left='371' width='30' height='39'/>
+    <box top='200' left='-240' width='291' height='287' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/024703-L.jpg'>
+    <box top='242' left='-33' width='173' height='175'/>
+    <box top='333' left='212' width='88' height='76'/>
+    <box top='333' left='384' width='66' height='68'/>
+    <box top='346' left='545' width='94' height='71'/>
+    <box top='322' left='335' width='44' height='45'/>
+    <box top='323' left='370' width='30' height='39' ignore='1'/>
+    <box top='339' left='329' width='23' height='27' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/024728-L.jpg'>
+    <box top='222' left='-61' width='152' height='197'/>
+    <box top='331' left='184' width='102' height='81'/>
+    <box top='350' left='514' width='69' height='50'/>
+    <box top='321' left='345' width='51' height='46'/>
+    <box top='341' left='326' width='22' height='26'/>
+    <box top='331' left='379' width='67' height='69'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/024855-L.jpg'>
+    <box top='325' left='338' width='80' height='82'/>
+    <box top='342' left='477' width='78' height='59'/>
+    <box top='333' left='250' width='40' height='40'/>
+    <box top='308' left='309' width='61' height='67'/>
+    <box top='348' left='431' width='32' height='26'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/024858-L.jpg'>
+    <box top='331' left='247' width='41' height='44'/>
+    <box top='340' left='475' width='77' height='59'/>
+    <box top='347' left='431' width='32' height='28'/>
+    <box top='322' left='336' width='83' height='90'/>
+    <box top='306' left='311' width='65' height='68'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/024991-L.jpg'>
+    <box top='320' left='138' width='81' height='76'/>
+    <box top='295' left='280' width='71' height='92'/>
+    <box top='316' left='301' width='126' height='128'/>
+    <box top='350' left='437' width='29' height='24'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025035-L.jpg'>
+    <box top='315' left='64' width='100' height='87'/>
+    <box top='319' left='297' width='121' height='119'/>
+    <box top='291' left='247' width='80' height='95'/>
+    <box top='349' left='430' width='23' height='19'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025042-L.jpg'>
+    <box top='318' left='48' width='106' height='95'/>
+    <box top='324' left='309' width='112' height='116'/>
+    <box top='295' left='241' width='86' height='99'/>
+    <box top='354' left='431' width='26' height='20'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025237-L.jpg'>
+    <box top='322' left='714' width='338' height='201'/>
+    <box top='299' left='237' width='76' height='82'/>
+    <box top='323' left='348' width='104' height='109'/>
+    <box top='353' left='456' width='75' height='49'/>
+    <box top='202' left='-156' width='283' height='239'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025374-L.jpg'>
+    <box top='267' left='144' width='134' height='125'/>
+    <box top='323' left='351' width='95' height='94'/>
+    <box top='349' left='477' width='49' height='34'/>
+    <box top='326' left='329' width='31' height='40'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025391-L.jpg'>
+    <box top='260' left='124' width='143' height='134'/>
+    <box top='323' left='344' width='93' height='102'/>
+    <box top='347' left='475' width='41' height='37'/>
+    <box top='325' left='325' width='34' height='41'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025508-L.jpg'>
+    <box top='169' left='-124' width='275' height='284'/>
+    <box top='347' left='146' width='43' height='29'/>
+    <box top='345' left='193' width='36' height='24'/>
+    <box top='314' left='291' width='40' height='50'/>
+    <box top='347' left='359' width='25' height='16'/>
+    <box top='345' left='442' width='25' height='20'/>
+    <box top='333' left='358' width='16' height='24' ignore='1'/>
+    <box top='345' left='400' width='12' height='10' ignore='1'/>
+    <box top='345' left='414' width='10' height='9' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025730-L.jpg'>
+    <box top='339' left='140' width='147' height='99'/>
+    <box top='285' left='287' width='85' height='94'/>
+    <box top='345' left='478' width='24' height='20'/>
+    <box top='348' left='400' width='21' height='14' ignore='1'/>
+    <box top='330' left='398' width='23' height='27' ignore='1'/>
+    <box top='345' left='458' width='11' height='11' ignore='1'/>
+    <box top='345' left='495' width='16' height='13' ignore='1'/>
+    <box top='342' left='424' width='53' height='14' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025817-L.jpg'>
+    <box top='260' left='379' width='89' height='128'/>
+    <box top='338' left='564' width='135' height='104'/>
+    <box top='340' left='762' width='86' height='53'/>
+    <box top='348' left='511' width='16' height='12' ignore='1'/>
+    <box top='347' left='521' width='12' height='11' ignore='1'/>
+    <box top='348' left='482' width='12' height='9' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025833-L.jpg'>
+    <box top='252' left='370' width='93' height='136'/>
+    <box top='335' left='591' width='139' height='103'/>
+    <box top='347' left='493' width='16' height='13'/>
+    <box top='346' left='463' width='11' height='11' ignore='1'/>
+    <box top='339' left='718' width='69' height='48'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025856-L.jpg'>
+    <box top='250' left='348' width='100' height='149'/>
+    <box top='340' left='596' width='139' height='100'/>
+    <box top='352' left='470' width='16' height='11' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/025994-L.jpg'>
+    <box top='343' left='887' width='82' height='52'/>
+    <box top='197' left='532' width='173' height='213'/>
+    <box top='339' left='687' width='55' height='53'/>
+    <box top='352' left='422' width='30' height='21'/>
+    <box top='328' left='487' width='24' height='32'/>
+    <box top='326' left='396' width='31' height='37'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/026032-L.jpg'>
+    <box top='210' left='535' width='192' height='199'/>
+    <box top='350' left='729' width='42' height='31'/>
+    <box top='350' left='357' width='33' height='21'/>
+    <box top='323' left='331' width='32' height='38'/>
+    <box top='327' left='463' width='23' height='34'/>
+    <box top='339' left='493' width='31' height='16' ignore='1'/>
+    <box top='343' left='378' width='13' height='10' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Left/026191-L.jpg'>
+    <box top='327' left='213' width='58' height='31'/>
+    <box top='285' left='113' width='55' height='58' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/024809-R.jpg'>
+    <box top='335' left='579' width='165' height='140'/>
+    <box top='370' left='96' width='143' height='91'/>
+    <box top='354' left='356' width='69' height='74'/>
+    <box top='375' left='317' width='39' height='32'/>
+    <box top='361' left='501' width='32' height='34'/>
+    <box top='336' left='439' width='47' height='59'/>
+    <box top='363' left='430' width='23' height='26' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/024811-R.jpg'>
+    <box top='375' left='108' width='136' height='84'/>
+    <box top='360' left='358' width='66' height='70'/>
+    <box top='378' left='320' width='38' height='30'/>
+    <box top='341' left='583' width='166' height='135'/>
+    <box top='363' left='503' width='31' height='35'/>
+    <box top='341' left='438' width='49' height='59'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/024832-R.jpg'>
+    <box top='324' left='639' width='211' height='171'/>
+    <box top='357' left='520' width='35' height='37'/>
+    <box top='334' left='446' width='56' height='61'/>
+    <box top='352' left='361' width='73' height='76'/>
+    <box top='374' left='341' width='32' height='31'/>
+    <box top='369' left='182' width='108' height='71'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025040-R.jpg'>
+    <box top='313' left='492' width='74' height='97'/>
+    <box top='330' left='639' width='104' height='92'/>
+    <box top='338' left='350' width='111' height='120'/>
+    <box top='355' left='457' width='22' height='31' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025194-R.jpg'>
+    <box top='247' left='607' width='222' height='188'/>
+    <box top='327' left='499' width='67' height='72'/>
+    <box top='349' left='321' width='104' height='105'/>
+    <box top='385' left='110' width='137' height='76'/>
+    <box top='357' left='457' width='23' height='29'/>
+    <box top='364' left='428' width='18' height='21' ignore='1'/>
+    <box top='366' left='441' width='11' height='17' ignore='1'/>
+    <box top='58' left='832' width='855' height='697' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025252-R.jpg'>
+    <box top='111' left='693' width='522' height='367'/>
+    <box top='366' left='-54' width='174' height='137'/>
+    <box top='340' left='322' width='102' height='112'/>
+    <box top='377' left='292' width='52' height='48'/>
+    <box top='310' left='504' width='77' height='89'/>
+    <box top='351' left='450' width='24' height='34'/>
+    <box top='360' left='417' width='27' height='25' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025374-R.jpg'>
+    <box top='283' left='534' width='120' height='123'/>
+    <box top='343' left='331' width='96' height='99'/>
+    <box top='371' left='285' width='46' height='35'/>
+    <box top='345' left='465' width='31' height='38'/>
+    <box top='358' left='429' width='17' height='23'/>
+    <box top='359' left='444' width='13' height='19' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025479-R.jpg'>
+    <box top='318' left='482' width='169' height='181'/>
+    <box top='215' left='593' width='264' height='225'/>
+    <box top='375' left='431' width='28' height='19'/>
+    <box top='375' left='341' width='29' height='21'/>
+    <box top='369' left='394' width='35' height='18' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025482-R.jpg'>
+    <box top='204' left='599' width='271' height='231'/>
+    <box top='315' left='493' width='184' height='195'/>
+    <box top='372' left='343' width='27' height='22'/>
+    <box top='372' left='431' width='27' height='20'/>
+    <box top='340' left='478' width='48' height='52' ignore='1'/>
+    <box top='369' left='398' width='28' height='13' ignore='1'/>
+    <box top='357' left='444' width='26' height='23' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025538-R.jpg'>
+    <box top='53' left='661' width='556' height='434'/>
+    <box top='371' left='335' width='23' height='18'/>
+    <box top='372' left='416' width='22' height='16'/>
+    <box top='373' left='391' width='11' height='8' ignore='1'/>
+    <box top='359' left='433' width='17' height='23'/>
+    <box top='335' left='472' width='46' height='52'/>
+    <box top='366' left='587' width='51' height='29'/>
+    <box top='367' left='579' width='34' height='27' ignore='1'/>
+    <box top='371' left='379' width='10' height='7' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025682-R.jpg'>
+    <box top='363' left='536' width='94' height='68'/>
+    <box top='312' left='473' width='68' height='83'/>
+    <box top='367' left='343' width='31' height='25'/>
+    <box top='368' left='416' width='20' height='15'/>
+    <box top='352' left='432' width='20' height='27'/>
+    <box top='367' left='335' width='15' height='12' ignore='1'/>
+    <box top='365' left='382' width='14' height='12' ignore='1'/>
+    <box top='368' left='400' width='6' height='5' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025685-R.jpg'>
+    <box top='358' left='531' width='104' height='73'/>
+    <box top='310' left='474' width='67' height='83'/>
+    <box top='364' left='340' width='30' height='24'/>
+    <box top='365' left='334' width='13' height='12' ignore='1'/>
+    <box top='364' left='381' width='11' height='10' ignore='1'/>
+    <box top='366' left='415' width='21' height='14'/>
+    <box top='349' left='430' width='19' height='28'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025795-R.jpg'>
+    <box top='289' left='355' width='81' height='118'/>
+    <box top='361' left='163' width='130' height='104'/>
+    <box top='372' left='287' width='17' height='15'/>
+    <box top='371' left='322' width='13' height='11' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025838-R.jpg'>
+    <box top='362' left='15' width='161' height='103'/>
+    <box top='274' left='333' width='92' height='143'/>
+    <box top='372' left='323' width='13' height='12' ignore='1'/>
+    <box top='361' left='431' width='16' height='19' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025855-R.jpg'>
+    <box top='368' left='26' width='154' height='100'/>
+    <box top='269' left='342' width='101' height='157'/>
+    <box top='365' left='457' width='15' height='19' ignore='1'/>
+    <box top='372' left='445' width='11' height='10' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025870-R.jpg'>
+    <box top='267' left='347' width='105' height='151'/>
+    <box top='370' left='41' width='147' height='94'/>
+    <box top='373' left='137' width='48' height='36' ignore='1'/>
+    <box top='367' left='456' width='22' height='21' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025889-R.jpg'>
+    <box top='253' left='345' width='109' height='166'/>
+    <box top='363' left='57' width='130' height='87'/>
+    <box top='368' left='165' width='42' height='32'/>
+    <box top='370' left='445' width='20' height='20' ignore='1'/>
+    <box top='371' left='463' width='8' height='8' ignore='1'/>
+  </image>
+  <image file='normal_rgb_images/tme46/Right/025926-R.jpg'>
+    <box top='370' left='83' width='107' height='71'/>
+    <box top='375' left='189' width='35' height='23'/>
+    <box top='245' left='311' width='121' height='180'/>
+    <box top='375' left='430' width='26' height='21'/>
+    <box top='374' left='457' width='13' height='13' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_000024.jpg'>
+    <box top='710' left='1344' width='411' height='229'/>
+    <box top='661' left='512' width='236' height='175'/>
+    <box top='621' left='782' width='93' height='63'/>
+    <box top='647' left='933' width='114' height='91'/>
+    <box top='616' left='1108' width='109' height='92'/>
+    <box top='611' left='1074' width='54' height='42'/>
+    <box top='596' left='1041' width='43' height='41'/>
+    <box top='617' left='967' width='53' height='39'/>
+    <box top='607' left='863' width='48' height='42'/>
+    <box top='601' left='894' width='36' height='30'/>
+    <box top='607' left='955' width='42' height='34'/>
+    <box top='547' left='907' width='149' height='95' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_000047.jpg'>
+    <box top='770' left='-15' width='578' height='345'/>
+    <box top='635' left='1207' width='227' height='162'/>
+    <box top='633' left='964' width='91' height='70'/>
+    <box top='619' left='799' width='84' height='55'/>
+    <box top='597' left='880' width='51' height='41'/>
+    <box top='601' left='973' width='38' height='31'/>
+    <box top='615' left='1104' width='83' height='65'/>
+    <box top='594' left='1078' width='62' height='54'/>
+    <box top='589' left='1038' width='43' height='39'/>
+    <box top='588' left='1027' width='25' height='26'/>
+    <box top='560' left='910' width='143' height='54' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_000053.jpg'>
+    <box top='664' left='619' width='194' height='137'/>
+    <box top='626' left='799' width='90' height='72'/>
+    <box top='600' left='885' width='52' height='52'/>
+    <box top='626' left='1169' width='192' height='145'/>
+    <box top='609' left='1091' width='82' height='67'/>
+    <box top='599' left='1078' width='53' height='43'/>
+    <box top='590' left='1041' width='38' height='32'/>
+    <box top='615' left='967' width='63' height='55'/>
+    <box top='543' left='893' width='178' height='98' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_000165.jpg'>
+    <box top='692' left='502' width='271' height='169'/>
+    <box top='673' left='955' width='170' height='151'/>
+    <box top='643' left='1203' width='154' height='92'/>
+    <box top='890' left='-262' width='729' height='421'/>
+    <box top='638' left='798' width='100' height='76'/>
+    <box top='631' left='988' width='79' height='56'/>
+    <box top='605' left='1088' width='58' height='48'/>
+    <box top='617' left='846' width='74' height='56'/>
+    <box top='614' left='902' width='44' height='32'/>
+    <box top='618' left='980' width='49' height='37'/>
+    <box top='545' left='920' width='186' height='92' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_000177.jpg'>
+    <box top='772' left='129' width='534' height='306'/>
+    <box top='701' left='959' width='228' height='204'/>
+    <box top='654' left='1284' width='247' height='167'/>
+    <box top='660' left='681' width='163' height='105'/>
+    <box top='641' left='992' width='86' height='66'/>
+    <box top='606' left='1097' width='57' height='48'/>
+    <box top='603' left='1071' width='40' height='34'/>
+    <box top='615' left='982' width='55' height='43'/>
+    <box top='621' left='872' width='63' height='51'/>
+    <box top='604' left='904' width='46' height='37'/>
+    <box top='600' left='943' width='25' height='20'/>
+    <box top='601' left='988' width='46' height='31'/>
+    <box top='535' left='932' width='190' height='92' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_000202.jpg'>
+    <box top='643' left='563' width='274' height='189'/>
+    <box top='631' left='810' width='95' height='72'/>
+    <box top='615' left='871' width='64' height='48'/>
+    <box top='650' left='966' width='134' height='111'/>
+    <box top='623' left='1221' width='183' height='131'/>
+    <box top='599' left='1125' width='77' height='58'/>
+    <box top='577' left='1133' width='33' height='25' ignore='1'/>
+    <box top='597' left='1092' width='45' height='38'/>
+    <box top='617' left='1005' width='67' height='55'/>
+    <box top='603' left='998' width='43' height='37'/>
+    <box top='593' left='921' width='41' height='37'/>
+    <box top='594' left='1037' width='46' height='29'/>
+    <box top='560' left='914' width='195' height='63' ignore='1'/>
+    <box top='646' left='1664' width='589' height='357' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_000205.jpg'>
+    <box top='658' left='365' width='411' height='272'/>
+    <box top='644' left='750' width='123' height='74'/>
+    <box top='670' left='947' width='163' height='136'/>
+    <box top='623' left='1192' width='159' height='126'/>
+    <box top='598' left='1247' width='107' height='60'/>
+    <box top='608' left='1127' width='95' height='65'/>
+    <box top='608' left='1099' width='55' height='53'/>
+    <box top='626' left='985' width='82' height='60'/>
+    <box top='619' left='848' width='67' height='50'/>
+    <box top='612' left='963' width='51' height='41'/>
+    <box top='605' left='1046' width='49' height='43'/>
+    <box top='603' left='911' width='38' height='34'/>
+    <box top='559' left='922' width='201' height='76' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_000390.jpg'>
+    <box top='636' left='549' width='243' height='170'/>
+    <box top='643' left='936' width='121' height='94'/>
+    <box top='621' left='1156' width='204' height='153'/>
+    <box top='479' left='1221' width='259' height='215'/>
+    <box top='637' left='1684' width='487' height='281' ignore='1'/>
+    <box top='563' left='1095' width='80' height='90'/>
+    <box top='589' left='1063' width='38' height='30'/>
+    <box top='601' left='955' width='72' height='51'/>
+    <box top='593' left='845' width='61' height='47'/>
+    <box top='584' left='906' width='36' height='32'/>
+    <box top='591' left='968' width='51' height='38' ignore='1'/>
+    <box top='579' left='1025' width='27' height='23'/>
+    <box top='686' left='49' width='144' height='67'/>
+    <box top='683' left='245' width='149' height='84' ignore='1'/>
+    <box top='630' left='394' width='187' height='90' ignore='1'/>
+    <box top='590' left='609' width='74' height='57' ignore='1'/>
+    <box top='590' left='710' width='51' height='31'/>
+    <box top='593' left='683' width='34' height='25'/>
+    <box top='582' left='737' width='32' height='21' ignore='1'/>
+    <box top='567' left='776' width='108' height='49' ignore='1'/>
+    <box top='516' left='843' width='212' height='85' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_000900.jpg'>
+    <box top='789' left='-162' width='700' height='377'/>
+    <box top='648' left='1403' width='408' height='236'/>
+    <box top='637' left='696' width='102' height='59'/>
+    <box top='622' left='867' width='82' height='68'/>
+    <box top='624' left='1039' width='72' height='63'/>
+    <box top='607' left='1171' width='63' height='44'/>
+    <box top='584' left='1140' width='36' height='33'/>
+    <box top='583' left='1126' width='25' height='26'/>
+    <box top='604' left='1041' width='46' height='32'/>
+    <box top='602' left='862' width='50' height='41'/>
+    <box top='601' left='911' width='44' height='33'/>
+    <box top='598' left='936' width='36' height='29'/>
+    <box top='556' left='958' width='193' height='66' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_000962.jpg'>
+    <box top='793' left='-217' width='377' height='256' ignore='1'/>
+    <box top='678' left='399' width='303' height='215'/>
+    <box top='651' left='331' width='216' height='134'/>
+    <box top='665' left='902' width='147' height='120'/>
+    <box top='627' left='1082' width='138' height='87'/>
+    <box top='624' left='607' width='96' height='57'/>
+    <box top='612' left='679' width='62' height='45'/>
+    <box top='608' left='717' width='42' height='28'/>
+    <box top='616' left='747' width='79' height='72'/>
+    <box top='616' left='792' width='45' height='40'/>
+    <box top='601' left='820' width='33' height='29'/>
+    <box top='559' left='837' width='51' height='52'/>
+    <box top='577' left='868' width='40' height='39'/>
+    <box top='613' left='900' width='63' height='48'/>
+    <box top='599' left='892' width='50' height='43'/>
+    <box top='596' left='882' width='39' height='33'/>
+    <box top='595' left='1012' width='75' height='59'/>
+    <box top='603' left='983' width='44' height='36'/>
+    <box top='598' left='965' width='39' height='34'/>
+    <box top='590' left='948' width='46' height='37'/>
+    <box top='538' left='640' width='220' height='81' ignore='1'/>
+    <box top='583' left='891' width='31' height='27' ignore='1'/>
+  </image>
+  <image file='youtube_frames/chicago_244_001015.jpg'>
+    <box top='682' left='1203' width='275' height='162'/>
+    <box top='613' left='1032' width='67' height='45'/>
+    <box top='614' left='912' width='47' height='36'/>
+    <box top='665' left='625' width='165' height='106'/>
+    <box top='651' left='508' width='136' height='81'/>
+    <box top='614' left='677' width='74' height='53'/>
+    <box top='624' left='792' width='70' height='50'/>
+    <box top='608' left='747' width='43' height='27'/>
+    <box top='607' left='806' width='49' height='34'/>
+    <box top='594' left='980' width='48' height='38'/>
+    <box top='600' left='896' width='36' height='25'/>
+    <box top='544' left='724' width='306' height='87' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000065.jpg'>
+    <box top='1410' left='1746' width='591' height='417'/>
+    <box top='1370' left='1786' width='331' height='235'/>
+    <box top='1274' left='1783' width='259' height='248'/>
+    <box top='1362' left='1018' width='520' height='355'/>
+    <box top='1365' left='1284' width='354' height='230'/>
+    <box top='1355' left='976' width='247' height='200'/>
+    <box top='1293' left='1453' width='241' height='260'/>
+    <box top='1336' left='2044' width='152' height='76' ignore='1'/>
+    <box top='1530' left='-660' width='1633' height='1159' ignore='1'/>
+    <box top='1309' left='2263' width='88' height='71' ignore='1'/>
+    <box top='1329' left='2204' width='60' height='39' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000097.jpg'>
+    <box top='1520' left='-398' width='1547' height='905'/>
+    <box top='1362' left='510' width='351' height='263'/>
+    <box top='1396' left='1643' width='189' height='127'/>
+    <box top='1439' left='1745' width='452' height='351'/>
+    <box top='1395' left='1825' width='129' height='93'/>
+    <box top='1396' left='1968' width='126' height='102'/>
+    <box top='1363' left='2097' width='103' height='92'/>
+    <box top='1368' left='2060' width='76' height='74'/>
+    <box top='1392' left='2174' width='67' height='55'/>
+    <box top='1386' left='2284' width='25' height='20'/>
+    <box top='1379' left='2344' width='52' height='55' ignore='1'/>
+    <box top='1355' left='2349' width='52' height='76' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000101.jpg'>
+    <box top='1420' left='1460' width='337' height='205'/>
+    <box top='1434' left='1924' width='328' height='238'/>
+    <box top='1395' left='1960' width='99' height='74'/>
+    <box top='1402' left='2098' width='88' height='73'/>
+    <box top='1373' left='2142' width='79' height='72'/>
+    <box top='1378' left='2102' width='74' height='64' ignore='1'/>
+    <box top='1354' left='2179' width='71' height='66' ignore='1'/>
+    <box top='1352' left='2275' width='90' height='106' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000155.jpg'>
+    <box top='1524' left='-308' width='1383' height='865'/>
+    <box top='1458' left='1566' width='613' height='443'/>
+    <box top='1408' left='1342' width='266' height='185'/>
+    <box top='1408' left='1750' width='200' height='149'/>
+    <box top='1357' left='1789' width='150' height='132'/>
+    <box top='1404' left='1520' width='159' height='113'/>
+    <box top='1367' left='1627' width='102' height='102'/>
+    <box top='1369' left='1663' width='147' height='99' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000197.jpg'>
+    <box top='1370' left='1612' width='49' height='41'/>
+    <box top='1366' left='1736' width='45' height='34'/>
+    <box top='1352' left='1747' width='50' height='45' ignore='1'/>
+    <box top='1370' left='1630' width='50' height='38' ignore='1'/>
+    <box top='1360' left='1640' width='44' height='45' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000263.jpg'>
+    <box top='1402' left='1743' width='331' height='257'/>
+    <box top='1374' left='1314' width='243' height='201'/>
+    <box top='1355' left='1440' width='173' height='150'/>
+    <box top='1397' left='2030' width='140' height='107'/>
+    <box top='1383' left='2365' width='107' height='99'/>
+    <box top='1382' left='1528' width='106' height='81' ignore='1'/>
+    <box top='1385' left='1670' width='48' height='38'/>
+    <box top='1383' left='1724' width='52' height='45'/>
+    <box top='1408' left='2318' width='83' height='63'/>
+    <box top='1394' left='2284' width='87' height='68'/>
+    <box top='1395' left='2246' width='76' height='62'/>
+    <box top='1396' left='2220' width='69' height='54'/>
+    <box top='1384' left='2194' width='70' height='60'/>
+    <box top='1372' left='2082' width='143' height='78' ignore='1'/>
+    <box top='1386' left='1781' width='138' height='91' ignore='1'/>
+    <box top='1304' left='1759' width='256' height='132' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000291.jpg'>
+    <box top='1363' left='206' width='428' height='253'/>
+    <box top='1342' left='607' width='322' height='184'/>
+    <box top='1312' left='922' width='232' height='153'/>
+    <box top='1309' left='1053' width='177' height='128'/>
+    <box top='1344' left='1314' width='324' height='234'/>
+    <box top='1284' left='1391' width='148' height='114'/>
+    <box top='1312' left='1864' width='127' height='95'/>
+    <box top='1330' left='2077' width='147' height='116'/>
+    <box top='1322' left='2051' width='131' height='106'/>
+    <box top='1355' left='2352' width='176' height='106'/>
+    <box top='1301' left='2305' width='187' height='135' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000324.jpg'>
+    <box top='1426' left='1642' width='1117' height='795'/>
+    <box top='1478' left='2796' width='1357' height='843'/>
+    <box top='1452' left='-448' width='1461' height='999'/>
+    <box top='1316' left='1963' width='212' height='121'/>
+    <box top='1302' left='2225' width='204' height='154'/>
+    <box top='1291' left='2136' width='122' height='130'/>
+    <box top='1326' left='1811' width='80' height='76'/>
+    <box top='1338' left='1692' width='76' height='65'/>
+    <box top='1331' left='1941' width='68' height='70'/>
+    <box top='1346' left='1889' width='44' height='36'/>
+    <box top='1343' left='1726' width='54' height='50'/>
+    <box top='1331' left='1745' width='52' height='47' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000338.jpg'>
+    <box top='1414' left='908' width='573' height='353'/>
+    <box top='1392' left='1778' width='271' height='215'/>
+    <box top='1416' left='2266' width='445' height='287'/>
+    <box top='1278' left='2512' width='407' height='303'/>
+    <box top='1269' left='2310' width='194' height='209'/>
+    <box top='1379' left='2053' width='165' height='134'/>
+    <box top='1371' left='1619' width='133' height='110'/>
+    <box top='1341' left='1636' width='131' height='122'/>
+    <box top='1321' left='1648' width='119' height='130'/>
+    <box top='1339' left='1816' width='110' height='126'/>
+    <box top='1348' left='1987' width='76' height='101'/>
+    <box top='1370' left='1951' width='72' height='74' ignore='1'/>
+    <box top='1322' left='1929' width='82' height='99'/>
+    <box top='1344' left='1760' width='68' height='68' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000357.jpg'>
+    <box top='1498' left='3266' width='1335' height='769' ignore='1'/>
+    <box top='1430' left='2418' width='265' height='205'/>
+    <box top='1408' left='1720' width='381' height='271'/>
+    <box top='1397' left='1632' width='147' height='127'/>
+    <box top='1355' left='1533' width='104' height='101'/>
+    <box top='1370' left='1785' width='136' height='115' ignore='1'/>
+    <box top='1405' left='1983' width='104' height='87'/>
+    <box top='1360' left='1741' width='90' height='108' ignore='1'/>
+    <box top='1376' left='1705' width='107' height='114' ignore='1'/>
+    <box top='1403' left='2107' width='75' height='65' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000402.jpg'>
+    <box top='1464' left='2628' width='1085' height='619'/>
+    <box top='1336' left='2106' width='243' height='221'/>
+    <box top='1392' left='488' width='299' height='155'/>
+    <box top='1383' left='1497' width='94' height='71'/>
+    <box top='1375' left='1533' width='73' height='54'/>
+    <box top='1307' left='1402' width='273' height='109' ignore='1'/>
+    <box top='1376' left='1653' width='90' height='70'/>
+    <box top='1390' left='1808' width='92' height='71'/>
+    <box top='1381' left='1966' width='87' height='66'/>
+    <box top='1379' left='1840' width='68' height='52'/>
+    <box top='1379' left='1899' width='46' height='32'/>
+    <box top='1364' left='1811' width='67' height='44' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000409.jpg'>
+    <box top='1412' left='2188' width='369' height='253'/>
+    <box top='1356' left='2080' width='161' height='161'/>
+    <box top='1391' left='1826' width='111' height='90'/>
+    <box top='1391' left='1947' width='40' height='34'/>
+    <box top='1389' left='1905' width='32' height='38'/>
+    <box top='1374' left='1851' width='166' height='40' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000415.jpg'>
+    <box top='1407' left='1895' width='292' height='214'/>
+    <box top='1388' left='2200' width='211' height='155'/>
+    <box top='1348' left='2115' width='122' height='127'/>
+    <box top='1383' left='1896' width='94' height='73'/>
+    <box top='1371' left='1891' width='71' height='55' ignore='1'/>
+  </image>
+  <image file='youtube_frames/la_fig_st_000434.jpg'>
+    <box top='1404' left='1710' width='335' height='321'/>
+    <box top='1465' left='1896' width='627' height='197' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000022.jpg'>
+    <box top='331' left='27' width='235' height='148'/>
+    <box top='203' left='241' width='170' height='184'/>
+    <box top='233' left='434' width='89' height='137'/>
+    <box top='320' left='578' width='53' height='38'/>
+    <box top='276' left='385' width='64' height='76' ignore='1'/>
+    <box top='282' left='498' width='77' height='59' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000031.jpg'>
+    <box top='221' left='423' width='109' height='156'/>
+    <box top='210' left='252' width='160' height='183'/>
+    <box top='333' left='142' width='102' height='64'/>
+    <box top='376' left='1154' width='130' height='69' ignore='1'/>
+    <box top='282' left='386' width='58' height='76' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000069.jpg'>
+    <box top='329' left='324' width='74' height='56'/>
+    <box top='209' left='437' width='119' height='181'/>
+    <box top='226' left='544' width='130' height='154'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000080.jpg'>
+    <box top='284' left='965' width='424' height='213'/>
+    <box top='301' left='819' width='205' height='119'/>
+    <box top='309' left='697' width='117' height='65'/>
+    <box top='302' left='522' width='109' height='83'/>
+    <box top='313' left='609' width='61' height='50'/>
+    <box top='320' left='389' width='32' height='29'/>
+    <box top='302' left='370' width='30' height='31'/>
+    <box top='294' left='389' width='50' height='48'/>
+    <box top='320' left='450' width='40' height='22'/>
+    <box top='312' left='454' width='28' height='29' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000155.jpg'>
+    <box top='36' left='1011' width='742' height='462' ignore='1'/>
+    <box top='327' left='417' width='78' height='70'/>
+    <box top='319' left='543' width='88' height='70'/>
+    <box top='310' left='651' width='88' height='67'/>
+    <box top='328' left='884' width='62' height='37' ignore='1'/>
+    <box top='334' left='798' width='62' height='30' ignore='1'/>
+    <box top='334' left='724' width='43' height='24' ignore='1'/>
+    <box top='329' left='507' width='30' height='28'/>
+    <box top='298' left='456' width='109' height='50' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000186.jpg'>
+    <box top='226' left='527' width='142' height='149'/>
+    <box top='279' left='391' width='140' height='143'/>
+    <box top='305' left='145' width='167' height='118'/>
+    <box top='322' left='367' width='38' height='37'/>
+    <box top='-141' left='747' width='1339' height='805'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000264.jpg'>
+    <box top='214' left='260' width='162' height='169'/>
+    <box top='319' left='431' width='27' height='25'/>
+    <box top='324' left='510' width='17' height='14'/>
+    <box top='320' left='495' width='16' height='13'/>
+    <box top='319' left='483' width='12' height='12'/>
+    <box top='289' left='697' width='37' height='39'/>
+    <box top='319' left='538' width='12' height='9' ignore='1'/>
+    <box top='311' left='735' width='26' height='20' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000267.jpg'>
+    <box top='305' left='950' width='61' height='29' ignore='1'/>
+    <box top='309' left='777' width='31' height='20' ignore='1'/>
+    <box top='311' left='726' width='30' height='21' ignore='1'/>
+    <box top='252' left='542' width='91' height='112'/>
+    <box top='324' left='487' width='28' height='25'/>
+    <box top='324' left='526' width='14' height='13'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000269.jpg'>
+    <box top='239' left='549' width='111' height='120'/>
+    <box top='297' left='516' width='26' height='38'/>
+    <box top='321' left='476' width='26' height='24'/>
+    <box top='313' left='463' width='24' height='17' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000272.jpg'>
+    <box top='328' left='862' width='52' height='25'/>
+    <box top='215' left='554' width='156' height='167'/>
+    <box top='326' left='451' width='27' height='22'/>
+    <box top='332' left='485' width='16' height='12' ignore='1'/>
+    <box top='-165' left='1160' width='2001' height='871' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000315.jpg'>
+    <box top='325' left='543' width='59' height='40'/>
+    <box top='325' left='462' width='14' height='12'/>
+    <box top='294' left='415' width='121' height='44' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000456.jpg'>
+    <box top='308' left='306' width='101' height='81'/>
+    <box top='326' left='422' width='39' height='32'/>
+    <box top='321' left='463' width='28' height='21'/>
+    <box top='323' left='508' width='17' height='13'/>
+    <box top='320' left='537' width='15' height='12'/>
+    <box top='319' left='562' width='13' height='10'/>
+    <box top='318' left='583' width='12' height='11'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000463.jpg'>
+    <box top='293' left='85' width='244' height='164'/>
+    <box top='329' left='359' width='55' height='42'/>
+    <box top='321' left='404' width='37' height='30'/>
+    <box top='326' left='455' width='16' height='12'/>
+    <box top='324' left='462' width='13' height='12' ignore='1'/>
+    <box top='324' left='418' width='33' height='25' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000472.jpg'>
+    <box top='335' left='104' width='222' height='135'/>
+    <box top='319' left='1036' width='207' height='107'/>
+    <box top='320' left='379' width='52' height='44'/>
+    <box top='331' left='425' width='22' height='18'/>
+    <box top='326' left='462' width='23' height='19'/>
+    <box top='327' left='438' width='25' height='16' ignore='1'/>
+  </image>
+  <image file='youtube_frames/quebec_40-000511.jpg'>
+    <box top='249' left='557' width='148' height='144'/>
+    <box top='318' left='520' width='30' height='26'/>
+    <box top='321' left='463' width='25' height='19'/>
+    <box top='296' left='502' width='20' height='29'/>
+    <box top='286' left='466' width='81' height='45' ignore='1'/>
+  </image>
+</images>
+</dataset>
