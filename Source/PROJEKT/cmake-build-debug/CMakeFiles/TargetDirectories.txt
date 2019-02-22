@@ -1,0 +1,3 @@
+/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles/PROJEKT.dir
+/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles/edit_cache.dir
