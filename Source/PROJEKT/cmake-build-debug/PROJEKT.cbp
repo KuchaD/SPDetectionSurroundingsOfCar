@@ -89,6 +89,18 @@
 		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/main.cpp">
 			<Option target="PROJEKT"/>
 		</Unit>
+		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/src/Network.cpp">
+			<Option target="PROJEKT"/>
+		</Unit>
+		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/src/Network.h">
+			<Option target="PROJEKT"/>
+		</Unit>
+		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/utils/Utils.cpp">
+			<Option target="PROJEKT"/>
+		</Unit>
+		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/utils/Utils.h">
+			<Option target="PROJEKT"/>
+		</Unit>
 		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

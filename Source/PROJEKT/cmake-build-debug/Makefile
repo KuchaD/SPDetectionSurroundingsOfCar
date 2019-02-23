@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PROJEKT.dir/build.make CMakeFiles/PROJEKT.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Network.o: src/Network.cpp.o
+
+.PHONY : src/Network.o
+
+# target to build an object file
+src/Network.cpp.o:
+	$(MAKE) -f CMakeFiles/PROJEKT.dir/build.make CMakeFiles/PROJEKT.dir/src/Network.cpp.o
+.PHONY : src/Network.cpp.o
+
+src/Network.i: src/Network.cpp.i
+
+.PHONY : src/Network.i
+
+# target to preprocess a source file
+src/Network.cpp.i:
+	$(MAKE) -f CMakeFiles/PROJEKT.dir/build.make CMakeFiles/PROJEKT.dir/src/Network.cpp.i
+.PHONY : src/Network.cpp.i
+
+src/Network.s: src/Network.cpp.s
+
+.PHONY : src/Network.s
+
+# target to generate assembly for a file
+src/Network.cpp.s:
+	$(MAKE) -f CMakeFiles/PROJEKT.dir/build.make CMakeFiles/PROJEKT.dir/src/Network.cpp.s
+.PHONY : src/Network.cpp.s
+
+utils/Utils.o: utils/Utils.cpp.o
+
+.PHONY : utils/Utils.o
+
+# target to build an object file
+utils/Utils.cpp.o:
+	$(MAKE) -f CMakeFiles/PROJEKT.dir/build.make CMakeFiles/PROJEKT.dir/utils/Utils.cpp.o
+.PHONY : utils/Utils.cpp.o
+
+utils/Utils.i: utils/Utils.cpp.i
+
+.PHONY : utils/Utils.i
+
+# target to preprocess a source file
+utils/Utils.cpp.i:
+	$(MAKE) -f CMakeFiles/PROJEKT.dir/build.make CMakeFiles/PROJEKT.dir/utils/Utils.cpp.i
+.PHONY : utils/Utils.cpp.i
+
+utils/Utils.s: utils/Utils.cpp.s
+
+.PHONY : utils/Utils.s
+
+# target to generate assembly for a file
+utils/Utils.cpp.s:
+	$(MAKE) -f CMakeFiles/PROJEKT.dir/build.make CMakeFiles/PROJEKT.dir/utils/Utils.cpp.s
+.PHONY : utils/Utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Network.o"
+	@echo "... src/Network.i"
+	@echo "... src/Network.s"
+	@echo "... utils/Utils.o"
+	@echo "... utils/Utils.i"
+	@echo "... utils/Utils.s"
 .PHONY : help
 
 
