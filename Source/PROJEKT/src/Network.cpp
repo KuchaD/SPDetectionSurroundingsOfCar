@@ -30,6 +30,7 @@ namespace Network
         deserialize(aFilePath) >> net >> sp;
 
     }
+/*
     void Network::ClassificationImage(cv::Mat Image)
     {
 
@@ -59,7 +60,7 @@ namespace Network
         cv::imwrite("/home/davelinux/Dokumenty/GIT/PROJEKT/test2.jpg",Image);
 
     }
-
+*/
     int Network::ignore_overlapped_boxes(std::vector<mmod_rect> &boxes, const test_box_overlap &overlaps) {
         int num_ignored = 0;
         for (size_t i = 0; i < boxes.size(); ++i)

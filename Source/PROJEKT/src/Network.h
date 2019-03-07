@@ -6,10 +6,7 @@
 #define PROJEKT_NETWORK_H
 
 
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
 #include <dlib/opencv.h>
-#include "opencv2/opencv.hpp"
 #include <iostream>
 #include <dlib/dnn.h>
 #include <dlib/image_io.h>
@@ -18,10 +15,8 @@
 #include <dlib/dnn.h>
 #include <dlib/image_io.h>
 #include <dlib/image_processing.h>
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
 #include <dlib/opencv.h>
-#include "opencv2/opencv.hpp"
+
 
 namespace Network
 {
@@ -45,7 +40,7 @@ namespace Network
     public:
         ~Network(void);
         void LoadFromFile(std::string aFilePath);
-        void ClassificationImage(cv::Mat Image);
+        //void ClassificationImage(cv::Mat Image);
         void Train();
         int ignore_overlapped_boxes(std::vector<mmod_rect>& boxes,const test_box_overlap& overlaps);
 
