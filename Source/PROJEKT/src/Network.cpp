@@ -3,10 +3,7 @@
 //
 #include "Network.h"
 
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
 #include <dlib/opencv.h>
-#include "opencv2/opencv.hpp"
 #include "../utils/Utils.h"
 #include <iostream>
 #include <dlib/dnn.h>

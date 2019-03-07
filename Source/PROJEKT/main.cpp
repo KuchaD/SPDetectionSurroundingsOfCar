@@ -10,10 +10,7 @@
 
 #include <iostream>
 #include "dlib/image_processing.h"
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
 #include <dlib/opencv.h>
-#include "opencv2/opencv.hpp"
 #include "src/Network.h"
 #include <dlib/dnn.h>
 
