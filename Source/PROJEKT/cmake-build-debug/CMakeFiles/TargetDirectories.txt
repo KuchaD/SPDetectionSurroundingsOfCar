@@ -1,3 +1,6 @@
-/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles/PROJEKT.dir
-/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles/assignment_learning_ex.dir
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/CMakeFiles/rebuild_cache.dir
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/CMakeFiles/dlib.dir
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/CMakeFiles/edit_cache.dir

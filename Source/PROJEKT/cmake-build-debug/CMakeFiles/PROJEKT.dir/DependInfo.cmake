@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/davelinux/Dokumenty/GIT/PROJEKT/main.cpp" "/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles/PROJEKT.dir/main.cpp.o"
-  "/home/davelinux/Dokumenty/GIT/PROJEKT/src/Network.cpp" "/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles/PROJEKT.dir/src/Network.cpp.o"
-  "/home/davelinux/Dokumenty/GIT/PROJEKT/utils/Utils.cpp" "/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles/PROJEKT.dir/utils/Utils.cpp.o"
+  "/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/main.cpp" "/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles/PROJEKT.dir/main.cpp.o"
+  "/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.cpp" "/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles/PROJEKT.dir/src/Network.cpp.o"
+  "/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/utils/Utils.cpp" "/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles/PROJEKT.dir/utils/Utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

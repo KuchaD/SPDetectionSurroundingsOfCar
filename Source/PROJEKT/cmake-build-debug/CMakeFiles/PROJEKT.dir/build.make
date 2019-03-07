@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/davelinux/Dokumenty/GIT/PROJEKT
+CMAKE_SOURCE_DIR = /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug
+CMAKE_BINARY_DIR = /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PROJEKT.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/PROJEKT.dir/flags.make
 
 CMakeFiles/PROJEKT.dir/main.cpp.o: CMakeFiles/PROJEKT.dir/flags.make
 CMakeFiles/PROJEKT.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PROJEKT.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJEKT.dir/main.cpp.o -c /home/davelinux/Dokumenty/GIT/PROJEKT/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PROJEKT.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJEKT.dir/main.cpp.o -c /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/main.cpp
 
 CMakeFiles/PROJEKT.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJEKT.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/davelinux/Dokumenty/GIT/PROJEKT/main.cpp > CMakeFiles/PROJEKT.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/main.cpp > CMakeFiles/PROJEKT.dir/main.cpp.i
 
 CMakeFiles/PROJEKT.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJEKT.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/davelinux/Dokumenty/GIT/PROJEKT/main.cpp -o CMakeFiles/PROJEKT.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/main.cpp -o CMakeFiles/PROJEKT.dir/main.cpp.s
 
 CMakeFiles/PROJEKT.dir/utils/Utils.cpp.o: CMakeFiles/PROJEKT.dir/flags.make
 CMakeFiles/PROJEKT.dir/utils/Utils.cpp.o: ../utils/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PROJEKT.dir/utils/Utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJEKT.dir/utils/Utils.cpp.o -c /home/davelinux/Dokumenty/GIT/PROJEKT/utils/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PROJEKT.dir/utils/Utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJEKT.dir/utils/Utils.cpp.o -c /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/utils/Utils.cpp
 
 CMakeFiles/PROJEKT.dir/utils/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJEKT.dir/utils/Utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/davelinux/Dokumenty/GIT/PROJEKT/utils/Utils.cpp > CMakeFiles/PROJEKT.dir/utils/Utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/utils/Utils.cpp > CMakeFiles/PROJEKT.dir/utils/Utils.cpp.i
 
 CMakeFiles/PROJEKT.dir/utils/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJEKT.dir/utils/Utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/davelinux/Dokumenty/GIT/PROJEKT/utils/Utils.cpp -o CMakeFiles/PROJEKT.dir/utils/Utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/utils/Utils.cpp -o CMakeFiles/PROJEKT.dir/utils/Utils.cpp.s
 
 CMakeFiles/PROJEKT.dir/src/Network.cpp.o: CMakeFiles/PROJEKT.dir/flags.make
 CMakeFiles/PROJEKT.dir/src/Network.cpp.o: ../src/Network.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PROJEKT.dir/src/Network.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJEKT.dir/src/Network.cpp.o -c /home/davelinux/Dokumenty/GIT/PROJEKT/src/Network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PROJEKT.dir/src/Network.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJEKT.dir/src/Network.cpp.o -c /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.cpp
 
 CMakeFiles/PROJEKT.dir/src/Network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJEKT.dir/src/Network.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/davelinux/Dokumenty/GIT/PROJEKT/src/Network.cpp > CMakeFiles/PROJEKT.dir/src/Network.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.cpp > CMakeFiles/PROJEKT.dir/src/Network.cpp.i
 
 CMakeFiles/PROJEKT.dir/src/Network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJEKT.dir/src/Network.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/davelinux/Dokumenty/GIT/PROJEKT/src/Network.cpp -o CMakeFiles/PROJEKT.dir/src/Network.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.cpp -o CMakeFiles/PROJEKT.dir/src/Network.cpp.s
 
 # Object files for target PROJEKT
 PROJEKT_OBJECTS = \
@@ -109,56 +109,22 @@ PROJEKT: CMakeFiles/PROJEKT.dir/main.cpp.o
 PROJEKT: CMakeFiles/PROJEKT.dir/utils/Utils.cpp.o
 PROJEKT: CMakeFiles/PROJEKT.dir/src/Network.cpp.o
 PROJEKT: CMakeFiles/PROJEKT.dir/build.make
-PROJEKT: /usr/local/lib/libopencv_gapi.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_stitching.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_aruco.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_bgsegm.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_bioinspired.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_ccalib.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_dnn_objdetect.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_dpm.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_face.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_freetype.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_fuzzy.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_hfs.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_img_hash.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_line_descriptor.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_quality.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_reg.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_rgbd.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_saliency.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_stereo.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_structured_light.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_superres.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_surface_matching.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_tracking.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_videostab.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_xfeatures2d.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_xobjdetect.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_xphoto.so.4.0.1
-PROJEKT: /usr/local/lib/libdlib.so
-PROJEKT: /usr/local/lib/libopencv_shape.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_datasets.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_plot.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_text.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_dnn.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_ml.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_phase_unwrapping.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_optflow.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_ximgproc.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_video.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_objdetect.so.4.0.1
+PROJEKT: /usr/local/lib/libopencv_photo.so.4.0.1
+PROJEKT: /usr/local/lib/libopencv_stitching.so.4.0.1
+PROJEKT: /usr/local/lib/libopencv_video.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_calib3d.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_features2d.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_flann.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_highgui.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_videoio.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_imgcodecs.so.4.0.1
-PROJEKT: /usr/local/lib/libopencv_photo.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_imgproc.so.4.0.1
 PROJEKT: /usr/local/lib/libopencv_core.so.4.0.1
 PROJEKT: CMakeFiles/PROJEKT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PROJEKT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PROJEKT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PROJEKT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -171,6 +137,6 @@ CMakeFiles/PROJEKT.dir/clean:
 .PHONY : CMakeFiles/PROJEKT.dir/clean
 
 CMakeFiles/PROJEKT.dir/depend:
-	cd /home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/davelinux/Dokumenty/GIT/PROJEKT /home/davelinux/Dokumenty/GIT/PROJEKT /home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug /home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug /home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/CMakeFiles/PROJEKT.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles/PROJEKT.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PROJEKT.dir/depend
 

@@ -1,4 +1,16 @@
-/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/davelinux/Dokumenty/GIT/PROJEKT
+/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT
+-- Using CMake version: 3.13.2
+-- Compiling dlib version: 19.16.99
+-- Searching for BLAS and LAPACK
+-- Searching for BLAS and LAPACK
+-- Checking for module 'cblas'
+--   No package 'cblas' found
+-- Found OpenBLAS library
+-- Looking for sgetrf_single
+-- Looking for sgetrf_single - not found
+-- Found LAPACK library
+-- C++11 activated.
+-- Found OpenCV: /usr/local (found suitable version "3.4.4", minimum required is "3.4.4") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug
+-- Build files have been written to: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug

@@ -5,116 +5,530 @@
 		<Option title="PROJEKT"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\dlib\;CMake Files\..\..\dlib\cmake_utils\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug"/>
+				<Option working_dir="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug"/>
+				<Option working_dir="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="PROJEKT">
-				<Option output="/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/PROJEKT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug"/>
+			<Target title="assignment_learning_ex">
+				<Option output="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/assignment_learning_ex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv4"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/.."/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 PROJEKT"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 assignment_learning_ex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="PROJEKT/fast">
-				<Option output="/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/PROJEKT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug"/>
+			<Target title="assignment_learning_ex/fast">
+				<Option output="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/assignment_learning_ex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/opencv4"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/.."/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 PROJEKT/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 assignment_learning_ex/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug"/>
+				<Option working_dir="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/davelinux/Dokumenty/GIT/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dlib">
+				<Option output="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/libdlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 dlib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dlib/fast">
+				<Option output="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/libdlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 dlib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/dlib_build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/main.cpp">
-			<Option target="PROJEKT"/>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/main.cpp">
+			<Option target="assignment_learning_ex"/>
 		</Unit>
-		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/src/Network.cpp">
-			<Option target="PROJEKT"/>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.cpp">
+			<Option target="assignment_learning_ex"/>
 		</Unit>
-		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/src/Network.h">
-			<Option target="PROJEKT"/>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.h">
+			<Option target="assignment_learning_ex"/>
 		</Unit>
-		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/utils/Utils.cpp">
-			<Option target="PROJEKT"/>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/utils/Utils.cpp">
+			<Option target="assignment_learning_ex"/>
 		</Unit>
-		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/utils/Utils.h">
-			<Option target="PROJEKT"/>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/utils/Utils.h">
+			<Option target="assignment_learning_ex"/>
 		</Unit>
-		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/CMakeLists.txt">
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/base64/base64_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/base64/base64_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/bigint/bigint_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/bigint/bigint_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/bigint/bigint_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/bigint/bigint_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/bit_stream/bit_stream_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/bit_stream/bit_stream_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/bsp/bsp.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/bsp/bsp.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/cuda/cpu_dlib.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/cuda/cpu_dlib.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/cuda/tensor_tools.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/cuda/tensor_tools.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/data_io/image_dataset_metadata.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/data_io/image_dataset_metadata.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/data_io/mnist.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/data_io/mnist.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/dir_nav/dir_nav_extensions.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/dir_nav/dir_nav_extensions.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/dir_nav/dir_nav_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/dir_nav/dir_nav_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/dir_nav/dir_nav_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/dir_nav/dir_nav_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/entropy_decoder/entropy_decoder_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/entropy_decoder/entropy_decoder_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/entropy_encoder/entropy_encoder_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/entropy_encoder/entropy_encoder_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/filtering/kalman_filter.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/filtering/kalman_filter.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/global_optimization/global_function_search.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/global_optimization/global_function_search.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_core/gui_core_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_core/gui_core_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_core/gui_core_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_core/gui_core_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/base_widgets.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/base_widgets.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/canvas_drawing.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/canvas_drawing.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/drawable.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/drawable.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/fonts.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/fonts.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/style.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/style.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/widgets.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/gui_widgets/widgets.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/image_loader/jpeg_loader.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/image_loader/jpeg_loader.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/image_loader/png_loader.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/image_loader/png_loader.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/image_saver/save_jpeg.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/image_saver/save_jpeg.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/image_saver/save_png.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/image_saver/save_png.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/linker/linker_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/linker/linker_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/logger/extra_logger_headers.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/logger/extra_logger_headers.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/logger/logger_config_file.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/logger/logger_config_file.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/logger/logger_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/logger/logger_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/md5/md5_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/md5/md5_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/misc_api/misc_api_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/misc_api/misc_api_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/misc_api/misc_api_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/misc_api/misc_api_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/server/server_http.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/server/server_http.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/server/server_iostream.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/server/server_iostream.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/server/server_kernel.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/server/server_kernel.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/sockets/sockets_extensions.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/sockets/sockets_extensions.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/sockets/sockets_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/sockets/sockets_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/sockets/sockets_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/sockets/sockets_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/sockstreambuf/sockstreambuf.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/sockstreambuf/sockstreambuf.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/sockstreambuf/sockstreambuf_unbuffered.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/stack_trace.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/stack_trace.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/svm/auto.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/svm/auto.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/test_for_odr_violations.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/test_for_odr_violations.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/async.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/async.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/multithreaded_object_extension.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/multithreaded_object_extension.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/thread_pool_extension.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/thread_pool_extension.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/threaded_object_extension.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/threaded_object_extension.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/threads_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/threads_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/threads_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/threads_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/threads_kernel_shared.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/threads/threads_kernel_shared.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/timer/timer.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/timer/timer.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/tokenizer/tokenizer_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/tokenizer/tokenizer_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/unicode/unicode.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/unicode/unicode.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/davelinux/Dokumenty/GIT/PROJEKT/../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../dlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\dlib\"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../dlib/cmake_utils/find_blas.cmake">
+			<Option virtualFolder="CMake Files\..\..\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../dlib/cmake_utils/release_build_by_default">
+			<Option virtualFolder="CMake Files\..\..\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../dlib/cmake_utils/set_compiler_specific_options.cmake">
+			<Option virtualFolder="CMake Files\..\..\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../dlib/cmake_utils/use_cpp_11.cmake">
+			<Option virtualFolder="CMake Files\..\..\dlib\cmake_utils\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

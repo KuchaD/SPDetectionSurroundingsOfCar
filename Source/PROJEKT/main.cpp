@@ -7,8 +7,6 @@
     The timer is an object that calls some user specified member function at regular
     intervals from another thread.
 */
-#define DLIB_JPEG_SUPPORT
-#define DLIB_PNG_SUPPORT
 
 #include <iostream>
 #include "dlib/image_processing.h"
@@ -23,22 +21,18 @@ using namespace std;
 using namespace dlib;
 
 
-// The rear view vehicle detector network
-template <long num_filters, typename SUBNET> using con5d = con<num_filters,5,5,2,2,SUBNET>;
-template <long num_filters, typename SUBNET> using con5  = con<num_filters,5,5,1,1,SUBNET>;
-template <typename SUBNET> using downsampler  = relu<affine<con5d<32, relu<affine<con5d<32, relu<affine<con5d<16,SUBNET>>>>>>>>>;
-template <typename SUBNET> using rcon5  = relu<affine<con5<55,SUBNET>>>;
-using net_type = loss_mmod<con<1,9,9,1,1,rcon5<rcon5<rcon5<downsampler<input_rgb_image_pyramid<pyramid_down<6>>>>>>>>;
 
 // ----------------------------------------------------------------------------------------
 
 int main() try
 {
     Network::Network lNet;
-    lNet.LoadFromFile("/home/davelinux/Dokumenty/GIT/PROJEKT/dlib_rear_end_vehicles/mmod_rear_end_vehicle_detector.dat");
 
-    cv::Mat lImage = cv::imread("/home/davelinux/Dokumenty/GIT/PROJEKT/011551-R.jpg",cv::IMREAD_ANYCOLOR);
-    lNet.ClassificationImage(lImage);
+    lNet.Train();
+    //lNet.LoadFromFile("/home/davelinux/Dokumenty/GIT/PROJEKT/dlib_rear_end_vehicles/mmod_rear_end_vehicle_detector.dat");
+
+//    cv::Mat lImage = cv::imread("/home/davelinux/Dokumenty/GIT/PROJEKT/011551-R.jpg",cv::IMREAD_ANYCOLOR);
+    //  lNet.ClassificationImage(lImage);
     //cv::waitKey(0); // wait until keypressed
 
     return 0;
