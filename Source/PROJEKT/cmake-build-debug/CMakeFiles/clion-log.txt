@@ -8,7 +8,6 @@
 -- Found OpenBLAS library
 -- Found LAPACK library
 -- C++11 activated.
--- Found OpenCV: /usr/local (found version "3.4.4") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug
