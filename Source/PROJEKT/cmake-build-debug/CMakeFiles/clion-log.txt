@@ -6,11 +6,9 @@
 -- Checking for module 'cblas'
 --   No package 'cblas' found
 -- Found OpenBLAS library
--- Looking for sgetrf_single
--- Looking for sgetrf_single - not found
 -- Found LAPACK library
 -- C++11 activated.
--- Found OpenCV: /usr/local (found suitable version "3.4.4", minimum required is "3.4.4") 
+-- Found OpenCV: /usr/local (found version "3.4.4") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug

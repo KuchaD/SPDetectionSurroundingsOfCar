@@ -25,5 +25,5 @@ add_executable(assignment_learning_ex main.cpp src/Network.cpp src/Network.h uti
 # depends on dlib.  You do that with this statement:
 target_link_libraries(assignment_learning_ex dlib::dlib)
 
-find_package( OpenCV 3.4.4 REQUIRED )
+find_package( OpenCV REQUIRED )
 target_link_libraries(assignment_learning_ex ${OpenCV_LIBS})

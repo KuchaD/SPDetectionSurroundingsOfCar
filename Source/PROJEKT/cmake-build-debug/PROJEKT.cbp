@@ -5,7 +5,7 @@
 		<Option title="PROJEKT"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\dlib\;CMake Files\..\..\dlib\cmake_utils\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\dlib\;CMake Files\..\..\dlib\cmake_utils\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug"/>
@@ -499,9 +499,6 @@
 		</Unit>
 		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
 		</Unit>
 		<Unit filename="/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
