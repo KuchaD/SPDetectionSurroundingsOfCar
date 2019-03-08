@@ -298,7 +298,7 @@ namespace Network
         std::vector<std::vector<mmod_rect>> mini_batch_labels;
         random_cropper cropper;
         cropper.set_seed(time(0));
-        cropper.set_chip_dims(10, 10);
+        cropper.set_chip_dims(3, 3);
         // Usually you want to give the cropper whatever min sizes you passed to the
         // mmod_options constructor, or very slightly smaller sizes, which is what we do here.
         cropper.set_min_object_size(69,28);
