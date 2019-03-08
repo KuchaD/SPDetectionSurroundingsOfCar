@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49fb4f97-bdcf-4ed1-985b-120fb7ff4f17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Network.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -79,8 +78,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Network.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="310" column="20" lean-forward="true" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="300" column="36" selection-start-line="300" selection-start-column="36" selection-end-line="300" selection-end-column="36" />
+              <folding>
+                <element signature="e#42#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -219,12 +221,12 @@
       <workItem from="1551948300140" duration="153000" />
       <workItem from="1551948482235" duration="2844000" />
       <workItem from="1551960801578" duration="606000" />
-      <workItem from="1552049321853" duration="168000" />
+      <workItem from="1552049321853" duration="779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26230000" />
+    <option name="totallyTimeSpent" value="26841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1048" extended-state="6" />
@@ -318,8 +320,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Network.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="310" column="20" lean-forward="true" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="300" column="36" selection-start-line="300" selection-start-column="36" selection-end-line="300" selection-end-column="36" />
+          <folding>
+            <element signature="e#42#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
