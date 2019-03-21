@@ -87,8 +87,8 @@ catch(std::exception& e)
 using namespace std;
 using namespace dlib;
 
-template <long num_filters, typename SUBNET> using con5d = con<num_filters,3,3,2,2,SUBNET>;
-template <long num_filters, typename SUBNET> using con5 = con <num_filters,3,3,1,1,SUBNET>;
+template <long num_filters, typename SUBNET> using con5d = con<num_filters,5,5,2,2,SUBNET>;
+template <long num_filters, typename SUBNET> using con5 = con <num_filters,5,5,1,1,SUBNET>;
 template <typename SUBNET> using downsampler  = relu<bn_con<con5d<32, relu<bn_con<con5d<32, relu<bn_con<con5d<16,SUBNET>>>>>>>>>;
 template <typename SUBNET> using rcon5  = relu<bn_con<con5<55,SUBNET>>>;
 using net_type = loss_mmod<con<1,9,9,1,1,rcon5<rcon5<rcon5<downsampler<input_rgb_image_pyramid<pyramid_down<6>>>>>>>>;
@@ -333,7 +333,7 @@ int main(int argc, char** argv) try
         // Every 30 mini-batches we do a testing mini-batch.
         if (cnt%30 != 0 || images_test.size() == 0)
         {
-            cropper(87, images_train, boxes_train, mini_batch_samples, mini_batch_labels);
+            cropper(10, images_train, boxes_train, mini_batch_samples, mini_batch_labels);
             // We can also randomly jitter the colors and that often helps a detector
             // generalize better to new images.
             for (auto&& img : mini_batch_samples)
