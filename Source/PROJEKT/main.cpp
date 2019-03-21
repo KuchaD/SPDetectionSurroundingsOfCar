@@ -354,7 +354,7 @@ int main(int argc, char** argv) try
         }
         else
         {
-            cropper(87, images_test, boxes_test, mini_batch_samples, mini_batch_labels);
+            cropper(10, images_test, boxes_test, mini_batch_samples, mini_batch_labels);
             // We can also randomly jitter the colors and that often helps a detector
             // generalize better to new images.
             for (auto&& img : mini_batch_samples)
