@@ -6,20 +6,20 @@
 
 #IncludeRegexTransform: 
 
-/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.cpp
-Network.h
-/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.h
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/main.cpp
+iostream
+-
+dlib/image_processing.h
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/dlib/image_processing.h
 dlib/opencv.h
 -
-../utils/Utils.h
-/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/utils/Utils.h
-iostream
+src/Network.h
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.h
+dlib/dnn.h
 -
 dlib/dnn.h
 -
-dlib/image_io.h
--
-dlib/image_processing.h
+iostream
 -
 dlib/data_io.h
 -
@@ -44,12 +44,6 @@ dlib/image_io.h
 dlib/image_processing.h
 -
 dlib/opencv.h
--
-
-/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/utils/Utils.h
-dlib/geometry/rectangle.h
--
-opencv2/core/types.hpp
 -
 
 /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/algs.h

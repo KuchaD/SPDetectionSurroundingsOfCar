@@ -73,8 +73,16 @@ CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetecti
 CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/cuda/tensor_abstract.h
 CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/cuda/tensor_tools.cpp
 CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/cuda/tensor_tools.h
+CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io.h
 CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/image_dataset_metadata.cpp
 CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/image_dataset_metadata.h
+CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/libsvm_io.h
+CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/libsvm_io_abstract.h
+CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/load_image_dataset.h
+CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/load_image_dataset_abstract.h
+CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/mnist.cpp
+CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/mnist.h
+CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/mnist_abstract.h
 CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/dir_nav.h
 CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/dir_nav/dir_nav_extensions.cpp
 CMakeFiles/assignment_learning_ex.dir/main.cpp.o: /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/dir_nav/dir_nav_extensions.h

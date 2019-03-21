@@ -74,8 +74,16 @@ CMakeFiles/assignment_learning_ex.dir/main.cpp.o
  /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/cuda/tensor_abstract.h
  /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/cuda/tensor_tools.cpp
  /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/cuda/tensor_tools.h
+ /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io.h
  /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/image_dataset_metadata.cpp
  /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/image_dataset_metadata.h
+ /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/libsvm_io.h
+ /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/libsvm_io_abstract.h
+ /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/load_image_dataset.h
+ /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/load_image_dataset_abstract.h
+ /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/mnist.cpp
+ /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/mnist.h
+ /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/data_io/mnist_abstract.h
  /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/dir_nav.h
  /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/dir_nav/dir_nav_extensions.cpp
  /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/dir_nav/dir_nav_extensions.h

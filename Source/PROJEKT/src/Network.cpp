@@ -301,7 +301,7 @@ namespace Network
         cropper.set_chip_dims(50,50);
         // Usually you want to give the cropper whatever min sizes you passed to the
         // mmod_options constructor, or very slightly smaller sizes, which is what we do here.
-        cropper.set_min_object_size(100,60);
+        cropper.set_min_object_size(30,60);
         cropper.set_max_rotation_degrees(2);
         dlib::rand rnd;
 
