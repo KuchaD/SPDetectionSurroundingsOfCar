@@ -286,7 +286,7 @@ namespace Network
             // Every 30 mini-batches we do a testing mini-batch.
             if (cnt%30 != 0 || images_test.size() == 0)
             {
-                cropper(40, images_train, boxes_train, mini_batch_samples, mini_batch_labels);
+                cropper(30, images_train, boxes_train, mini_batch_samples, mini_batch_labels);
                 // We can also randomly jitter the colors and that often helps a detector
                 // generalize better to new images.
                 for (auto&& img : mini_batch_samples)
@@ -307,7 +307,7 @@ namespace Network
             }
             else
             {
-                cropper(40, images_test, boxes_test, mini_batch_samples, mini_batch_labels);
+                cropper(30, images_test, boxes_test, mini_batch_samples, mini_batch_labels);
                 // We can also randomly jitter the colors and that often helps a detector
                 // generalize better to new images.
                 for (auto&& img : mini_batch_samples)
