@@ -10,7 +10,7 @@
 #include <dlib/image_io.h>
 #include <dlib/image_processing.h>
 #include <dlib/data_io.h>
-#include "opencv2/opencv.hpp"
+//#include "opencv2/opencv.hpp"
 
 
 using namespace std;
@@ -30,7 +30,7 @@ namespace Network
 
     void Network::ClassificationImage(cv::Mat Image)
     {
-
+/*
         cv_image<bgr_pixel> image(Image);
         matrix<rgb_pixel> img;
         assign_image(img, image);
@@ -56,7 +56,7 @@ namespace Network
 
         cv::imwrite("test22.jpg",Image);
 
-
+*/
     }
 
     int Network::ignore_overlapped_boxes(std::vector<mmod_rect> &boxes, const test_box_overlap &overlaps) {
