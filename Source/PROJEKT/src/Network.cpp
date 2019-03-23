@@ -10,7 +10,7 @@
 #include <dlib/image_io.h>
 #include <dlib/image_processing.h>
 #include <dlib/data_io.h>
-
+#include "opencv2/opencv.hpp"
 
 
 using namespace std;
@@ -23,11 +23,11 @@ namespace Network
 
     void Network::LoadFromFile(std::string aFilePath)
     {
-        ///home/davelinux/Documents/SEMESTRALPROJECT/src/dlib_rear_end_vehicles/mmod_rear_end_vehicle_detector.dat
-        deserialize(aFilePath) >> net >> sp;
+
+        deserialize(aFilePath) >> net ;
 
     }
-/*
+
     void Network::ClassificationImage(cv::Mat Image)
     {
 
@@ -49,15 +49,16 @@ namespace Network
                 rect += fd.part(j);
 
 
-            //cv::Point lPos = cv::Point(rect.right,rect.top);
+            cv::Point lPos = cv::Point(rect.left(),rect.top());
             cv::rectangle(Image,Utils::DlibOpenCV::dlibRectangleToOpenCV(rect),cv::Scalar(255,0,0));
-            //cv::putText(Image, d.label,lPos,4,2,cv::Scalar(255,255,255));
+            cv::putText(Image, d.label,lPos,4,2,cv::Scalar(255,255,255));
         }
 
-        cv::imwrite("/home/davelinux/Dokumenty/GIT/PROJEKT/test2.jpg",Image);
+        cv::imwrite("test22.jpg",Image);
+
 
     }
-*/
+
     int Network::ignore_overlapped_boxes(std::vector<mmod_rect> &boxes, const test_box_overlap &overlaps) {
         int num_ignored = 0;
         for (size_t i = 0; i < boxes.size(); ++i)
@@ -83,34 +84,28 @@ namespace Network
 
     void Network::Train() {
 
-        std::string l = "../dlib_rear_end_vehicles";
-        std::string data_directory = l;
+        const std::string data_directory = "../dlib_rear_end_vehicles";
+
 
         std::vector<matrix<rgb_pixel>> images_train, images_test;
         std::vector<std::vector<mmod_rect>> boxes_train, boxes_test;
         load_image_dataset(images_train, boxes_train, data_directory+"/training.xml");
         load_image_dataset(images_test,  boxes_test,  data_directory+"/testing.xml");
 
-        // When I was creating the dlib vehicle detection dataset I had to label all the cars
-        // in each image.  MMOD requires all cars to be labeled, since any unlabeled part of an
-        // image is implicitly assumed to be not a car, and the algorithm will use it as
-        // negative training data.  So every car must be labeled, either with a normal
-        // rectangle or an "ignore" rectangle that tells MMOD to simply ignore it (i.e. neither
-        // treat it as a thing to detect nor as negative training data).
-        //
-        // In our present case, many images contain very tiny cars in the distance, ones that
-        // are essentially just dark smudges.  It's not reasonable to expect the CNN
-        // architecture we defined to detect such vehicles.  However, I erred on the side of
-        // having more complete annotations when creating the dataset.  So when I labeled these
-        // images I labeled many of these really difficult cases as vehicles to detect.
-        //
-        // So the first thing we are going to do is clean up our dataset a little bit.  In
-        // particular, we are going to mark boxes smaller than 35*35 pixels as ignore since
-        // only really small and blurry cars appear at those sizes.  We will also mark boxes
-        // that are heavily overlapped by another box as ignore.  We do this because we want to
-        // allow for stronger non-maximum suppression logic in the learned detector, since that
-        // will help make it easier to learn a good detector.
-        //
+        //Poznamky
+        /*
+         Negativni trenovaci data oznacena jako ignore.
+         Kazde auto musi mit popisek
+
+         Boxy mensi nez 35x35 pixel jsou ignorovany kvuli velikosti.
+         Tak samo pokud jsou boxy pres sebe.
+
+
+         Jak to funguje.
+         Prochazi obrazak plavoucim oknem a pta se jestli je auto tady?
+
+         */
+
         // To explain this non-max suppression idea further it's important to understand how
         // the detector works.  Essentially, sliding window detectors scan all image locations
         // and ask "is there a car here?".  If there really is a car in a specific location in
@@ -168,30 +163,6 @@ namespace Network
                     }
                 }
 
-                // The dlib vehicle detection dataset doesn't contain any detections with
-                // really extreme aspect ratios.  However, some datasets do, often because of
-                // bad labeling.  So it's a good idea to check for that and either eliminate
-                // those boxes or set them to ignore.  Although, this depends on your
-                // application.
-                //
-                // For instance, if your dataset has boxes with an aspect ratio
-                // of 10 then you should think about what that means for the network
-                // architecture.  Does the receptive field even cover the entirety of the box
-                // in those cases?  Do you care about these boxes?  Are they labeling errors?
-                // I find that many people will download some dataset from the internet and
-                // just take it as given.  They run it through some training algorithm and take
-                // the dataset as unchallengeable truth.  But many datasets are full of
-                // labeling errors.  There are also a lot of datasets that aren't full of
-                // errors, but are annotated in a sloppy and inconsistent way.  Fixing those
-                // errors and inconsistencies can often greatly improve models trained from
-                // such data.  It's almost always worth the time to try and improve your
-                // training dataset.
-                //
-                // In any case, my point is that there are other types of dataset cleaning you
-                // could put here.  What exactly you need depends on your application.  But you
-                // should carefully consider it and not take your dataset as a given.  The work
-                // of creating a good detector is largely about creating a high quality
-                // training dataset.
             }
         }
 
@@ -298,10 +269,10 @@ namespace Network
         std::vector<std::vector<mmod_rect>> mini_batch_labels;
         random_cropper cropper;
         cropper.set_seed(time(0));
-        cropper.set_chip_dims(50,50);
+        cropper.set_chip_dims(350, 350);
         // Usually you want to give the cropper whatever min sizes you passed to the
         // mmod_options constructor, or very slightly smaller sizes, which is what we do here.
-        cropper.set_min_object_size(30,60);
+        cropper.set_min_object_size(69,28);
         cropper.set_max_rotation_degrees(2);
         dlib::rand rnd;
 
@@ -315,7 +286,7 @@ namespace Network
             // Every 30 mini-batches we do a testing mini-batch.
             if (cnt%30 != 0 || images_test.size() == 0)
             {
-                cropper(87, images_train, boxes_train, mini_batch_samples, mini_batch_labels);
+                cropper(40, images_train, boxes_train, mini_batch_samples, mini_batch_labels);
                 // We can also randomly jitter the colors and that often helps a detector
                 // generalize better to new images.
                 for (auto&& img : mini_batch_samples)
@@ -336,7 +307,7 @@ namespace Network
             }
             else
             {
-                cropper(87, images_test, boxes_test, mini_batch_samples, mini_batch_labels);
+                cropper(40, images_test, boxes_test, mini_batch_samples, mini_batch_labels);
                 // We can also randomly jitter the colors and that often helps a detector
                 // generalize better to new images.
                 for (auto&& img : mini_batch_samples)
@@ -399,9 +370,9 @@ namespace Network
                 num testing images: 135
                 testing results: 0.988827 0.471372 0.470806
                 testing upsampled results: 0.987879 0.651132 0.650399
+        */
 
 
-*/
     }
 
 

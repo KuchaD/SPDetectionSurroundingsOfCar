@@ -1,7 +1,7 @@
 //
 // Created by davelinux on 23.2.19.
 //
-/*
+
 #ifndef PROJEKT_UTILS_H
 #define PROJEKT_UTILS_H
 
@@ -21,4 +21,3 @@ namespace Utils
 
 
 #endif //PROJEKT_UTILS_H
-*/

@@ -3,8 +3,7 @@
 cmake_minimum_required(VERSION 3.12)
 # Every project needs a name.  We call this the "examples" project.
 project(PROJEKT)
-
-
+find_package( OpenCV REQUIRED )
 
 # Tell cmake we will need dlib.  This command will pull in dlib and compile it
 # into your project.  Note that you don't need to compile or install dlib.  All
@@ -20,8 +19,10 @@ add_subdirectory(../../dlib dlib_build)
 # files you would simply list them here in the add_executable() statement.
 
 
-add_executable(assignment_learning_ex main.cpp src/Network.cpp src/Network.h utils/Utils.h utils/Utils.cpp)
+add_executable(DNN main.cpp src/Network.cpp src/Network.h utils/Utils.h utils/Utils.cpp)
 # Finally, you need to tell CMake that this program, assignment_learning_ex,
 # depends on dlib.  You do that with this statement:
-target_link_libraries(assignment_learning_ex dlib::dlib)
+target_link_libraries(DNN dlib::dlib)
+
+target_link_libraries(DNN  ${OpenCV_LIBS} )
 

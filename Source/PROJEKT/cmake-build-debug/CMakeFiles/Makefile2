@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJ
 CMAKE_BINARY_DIR = /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/assignment_learning_ex.dir
+# Target rules for target CMakeFiles/DNN.dir
 
 # All Build rule for target.
-CMakeFiles/assignment_learning_ex.dir/all: dlib_build/CMakeFiles/dlib.dir/all
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/depend
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target assignment_learning_ex"
-.PHONY : CMakeFiles/assignment_learning_ex.dir/all
+CMakeFiles/DNN.dir/all: dlib_build/CMakeFiles/dlib.dir/all
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/depend
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target DNN"
+.PHONY : CMakeFiles/DNN.dir/all
 
 # Include target in all.
-all: CMakeFiles/assignment_learning_ex.dir/all
+all: CMakeFiles/DNN.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/assignment_learning_ex.dir/rule: cmake_check_build_system
+CMakeFiles/DNN.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles 63
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/assignment_learning_ex.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DNN.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/assignment_learning_ex.dir/rule
+.PHONY : CMakeFiles/DNN.dir/rule
 
 # Convenience name for target.
-assignment_learning_ex: CMakeFiles/assignment_learning_ex.dir/rule
+DNN: CMakeFiles/DNN.dir/rule
 
-.PHONY : assignment_learning_ex
-
-# clean rule for target.
-CMakeFiles/assignment_learning_ex.dir/clean:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/clean
-.PHONY : CMakeFiles/assignment_learning_ex.dir/clean
+.PHONY : DNN
 
 # clean rule for target.
-clean: CMakeFiles/assignment_learning_ex.dir/clean
+CMakeFiles/DNN.dir/clean:
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/clean
+.PHONY : CMakeFiles/DNN.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/DNN.dir/clean
 
 .PHONY : clean
 

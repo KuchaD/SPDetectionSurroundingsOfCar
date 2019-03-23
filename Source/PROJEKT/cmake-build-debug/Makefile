@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named assignment_learning_ex
+# Target rules for targets named DNN
 
 # Build rule for target.
-assignment_learning_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 assignment_learning_ex
-.PHONY : assignment_learning_ex
+DNN: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DNN
+.PHONY : DNN
 
 # fast build rule for target.
-assignment_learning_ex/fast:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/build
-.PHONY : assignment_learning_ex/fast
+DNN/fast:
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/build
+.PHONY : DNN/fast
 
 #=============================================================================
 # Target rules for targets named dlib
@@ -142,7 +142,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -151,7 +151,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -160,7 +160,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/Network.o: src/Network.cpp.o
@@ -169,7 +169,7 @@ src/Network.o: src/Network.cpp.o
 
 # target to build an object file
 src/Network.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/src/Network.cpp.o
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/src/Network.cpp.o
 .PHONY : src/Network.cpp.o
 
 src/Network.i: src/Network.cpp.i
@@ -178,7 +178,7 @@ src/Network.i: src/Network.cpp.i
 
 # target to preprocess a source file
 src/Network.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/src/Network.cpp.i
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/src/Network.cpp.i
 .PHONY : src/Network.cpp.i
 
 src/Network.s: src/Network.cpp.s
@@ -187,7 +187,7 @@ src/Network.s: src/Network.cpp.s
 
 # target to generate assembly for a file
 src/Network.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/src/Network.cpp.s
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/src/Network.cpp.s
 .PHONY : src/Network.cpp.s
 
 utils/Utils.o: utils/Utils.cpp.o
@@ -196,7 +196,7 @@ utils/Utils.o: utils/Utils.cpp.o
 
 # target to build an object file
 utils/Utils.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/utils/Utils.cpp.o
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/utils/Utils.cpp.o
 .PHONY : utils/Utils.cpp.o
 
 utils/Utils.i: utils/Utils.cpp.i
@@ -205,7 +205,7 @@ utils/Utils.i: utils/Utils.cpp.i
 
 # target to preprocess a source file
 utils/Utils.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/utils/Utils.cpp.i
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/utils/Utils.cpp.i
 .PHONY : utils/Utils.cpp.i
 
 utils/Utils.s: utils/Utils.cpp.s
@@ -214,7 +214,7 @@ utils/Utils.s: utils/Utils.cpp.s
 
 # target to generate assembly for a file
 utils/Utils.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment_learning_ex.dir/build.make CMakeFiles/assignment_learning_ex.dir/utils/Utils.cpp.s
+	$(MAKE) -f CMakeFiles/DNN.dir/build.make CMakeFiles/DNN.dir/utils/Utils.cpp.s
 .PHONY : utils/Utils.cpp.s
 
 # Help Target
@@ -224,7 +224,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... assignment_learning_ex"
+	@echo "... DNN"
 	@echo "... edit_cache"
 	@echo "... dlib"
 	@echo "... main.o"
