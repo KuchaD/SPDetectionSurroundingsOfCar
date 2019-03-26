@@ -10,6 +10,7 @@
 #include <dlib/image_io.h>
 #include <dlib/image_processing.h>
 #include <dlib/data_io.h>
+#include <ctime>
 //#include "opencv2/opencv.hpp"
 
 
@@ -90,6 +91,9 @@ namespace Network
         std::vector<std::vector<mmod_rect>> boxes_train, boxes_test;
         load_image_dataset(images_train, boxes_train, data_directory+"/training.xml");
         load_image_dataset(images_test,  boxes_test,  data_directory+"/testing.xml");
+        auto start = std::chrono::system_clock::now();
+        auto start_t = chrono::system_clock::to_time_t(start);
+        cout << "Start time: " << ctime(&start_t)<< endl;
 
         //Poznamky
         /*
@@ -268,7 +272,7 @@ namespace Network
         std::vector<std::vector<mmod_rect>> mini_batch_labels;
         random_cropper cropper;
         cropper.set_seed(time(0));
-        cropper.set_chip_dims(150, 150);
+        cropper.set_chip_dims(100, 100);
         // Usually you want to give the cropper whatever min sizes you passed to the
         // mmod_options constructor, or very slightly smaller sizes, which is what we do here.
         cropper.set_min_object_size(69,28);
@@ -370,8 +374,13 @@ namespace Network
                 testing results: 0.988827 0.471372 0.470806
                 testing upsampled results: 0.987879 0.651132 0.650399
         */
-
-
+        auto end = std::chrono::system_clock::now();
+        auto end_t = chrono::system_clock::to_time_t(start);
+        std::chrono::duration<double> elapsed_seconds = end-start;
+        cout << "End time: " << ctime(&end_t)<< endl;
+        std::cout <<"Completa time in h "<< std::chrono::duration_cast<std::chrono::hours>(end-start).count()<< " hours\n";
+        std::cout <<"Completa time in minutes "<< std::chrono::duration_cast<std::chrono::minutes>(end-start).count()<< " minutes\n";
+        std::cout <<"Completa time in seconds "<< std::chrono::duration_cast<std::chrono::seconds>(end-start).count()<< " s\n";
     }
 
 
