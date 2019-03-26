@@ -57,8 +57,8 @@ namespace Network
         cv::imwrite("test22.jpg",Image);
 
 
-    }
-*/
+    }*/
+
     int Network::ignore_overlapped_boxes(std::vector<mmod_rect> &boxes, const test_box_overlap &overlaps) {
         int num_ignored = 0;
         for (size_t i = 0; i < boxes.size(); ++i)
@@ -243,6 +243,7 @@ namespace Network
         // what perform the final "sliding window" detection in the network.  For the dlib
         // vehicle dataset, there will be 3 sliding window detectors, so we will be setting
         // num_filters to 3 here.
+
         net.subnet().layer_details().set_num_filters(options.detector_windows.size());
 
 
