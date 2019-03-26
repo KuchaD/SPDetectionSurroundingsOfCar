@@ -24,17 +24,16 @@ namespace Network
     void Network::LoadFromFile(std::string aFilePath)
     {
 
-        deserialize(aFilePath) >> net ;
+        deserialize(aFilePath) >> net;
 
     }
-
+/*
     void Network::ClassificationImage(cv::Mat Image)
     {
-/*
+
         cv_image<bgr_pixel> image(Image);
         matrix<rgb_pixel> img;
         assign_image(img, image);
-
 //     // Run the detector on the image and show us the output.
         for (auto&& d : net(img))
         {
@@ -42,11 +41,11 @@ namespace Network
             // box.  This shape_predictor is trained to simply output the 4 corner points of
             // the box.  So all we do is make a rectangle that tightly contains those 4 points
             // and that rectangle is our refined detection position.
-            auto fd =  sp(img,d);
-            dlib::rectangle rect;
 
-            for (unsigned long j = 0; j < fd.num_parts(); ++j)
-                rect += fd.part(j);
+
+            dlib::rectangle rect = d.rect;
+
+
 
 
             cv::Point lPos = cv::Point(rect.left(),rect.top());
@@ -56,9 +55,9 @@ namespace Network
 
         cv::imwrite("test22.jpg",Image);
 
-*/
-    }
 
+    }
+*/
     int Network::ignore_overlapped_boxes(std::vector<mmod_rect> &boxes, const test_box_overlap &overlaps) {
         int num_ignored = 0;
         for (size_t i = 0; i < boxes.size(); ++i)
@@ -269,7 +268,7 @@ namespace Network
         std::vector<std::vector<mmod_rect>> mini_batch_labels;
         random_cropper cropper;
         cropper.set_seed(time(0));
-        cropper.set_chip_dims(350, 350);
+        cropper.set_chip_dims(150, 150);
         // Usually you want to give the cropper whatever min sizes you passed to the
         // mmod_options constructor, or very slightly smaller sizes, which is what we do here.
         cropper.set_min_object_size(69,28);
@@ -286,7 +285,7 @@ namespace Network
             // Every 30 mini-batches we do a testing mini-batch.
             if (cnt%30 != 0 || images_test.size() == 0)
             {
-                cropper(30, images_train, boxes_train, mini_batch_samples, mini_batch_labels);
+                cropper(10, images_train, boxes_train, mini_batch_samples, mini_batch_labels);
                 // We can also randomly jitter the colors and that often helps a detector
                 // generalize better to new images.
                 for (auto&& img : mini_batch_samples)
@@ -307,7 +306,7 @@ namespace Network
             }
             else
             {
-                cropper(30, images_test, boxes_test, mini_batch_samples, mini_batch_labels);
+                cropper(10, images_test, boxes_test, mini_batch_samples, mini_batch_labels);
                 // We can also randomly jitter the colors and that often helps a detector
                 // generalize better to new images.
                 for (auto&& img : mini_batch_samples)

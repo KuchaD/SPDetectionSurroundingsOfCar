@@ -81,8 +81,8 @@ catch(std::exception& e)
 #include <dlib/dnn.h>
 #include <iostream>
 #include <dlib/data_io.h>
-#include <opencv/cv.hpp>
 #include "src/Network.h"
+#include <dlib/opencv.h>
 
 using namespace std;
 using namespace dlib;
@@ -95,7 +95,7 @@ using namespace dlib;
 
 int main(int argc, char** argv) try
 {
-    //cv::Mat lMat = cv::imread("../005445-R.jpg",cv::IMREAD_ANYCOLOR);
+    //cv::Mat lMat = cv::imread("../011551-R.jpg",cv::IMREAD_ANYCOLOR);
 
     Network::Network lNet;
     //lNet.LoadFromFile("../mmod_rear_end_vehicle_detector.dat");
