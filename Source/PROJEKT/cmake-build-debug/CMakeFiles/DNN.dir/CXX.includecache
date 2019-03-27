@@ -28,6 +28,26 @@ src/Network.h
 dlib/opencv.h
 -
 
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.cpp
+Network.h
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.h
+dlib/opencv.h
+-
+../utils/Utils.h
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/utils/Utils.h
+iostream
+-
+dlib/dnn.h
+-
+dlib/image_io.h
+-
+dlib/image_processing.h
+-
+dlib/data_io.h
+-
+ctime
+-
+
 /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/src/Network.h
 dlib/opencv.h
 -
@@ -48,6 +68,12 @@ dlib/image_io.h
 dlib/image_processing.h
 -
 dlib/opencv.h
+-
+
+/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/utils/Utils.h
+dlib/geometry/rectangle.h
+-
+opencv2/core/types.hpp
 -
 
 /home/daveliinux/GIT/SPDetectionSurroundingsOfCar/dlib/../dlib/algs.h

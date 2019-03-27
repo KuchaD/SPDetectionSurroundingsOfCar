@@ -46,12 +46,10 @@ namespace Network
 // Now we can define a simple network for classifying MNIST digits.  We will
 // train and test this network in the code below.
     using net_type = loss_mmod<con<1,6,6,1,1,
-            fc<10,
-                    relu<fc<32,
                             max_pool<2,2,2,2,incept_b<
                                     max_pool<2,2,2,2,incept_a<
                                             input_rgb_image_pyramid<pyramid_down<6>>
-                                    >>>>>>>>>;
+                                    >>>>>>;
 
 
 
