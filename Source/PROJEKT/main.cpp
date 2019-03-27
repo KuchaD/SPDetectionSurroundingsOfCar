@@ -89,17 +89,14 @@ using namespace std;
 using namespace dlib;
 
 
-
-
-
 // ----------------------------------------------------------------------------------------
 
 int main(int argc, char** argv) try
 {
-   // cv::Mat lMat = cv::imread("../011551-R.jpg",cv::IMREAD_ANYCOLOR);
+    //cv::Mat lMat = cv::imread("../011551-R.jpg",cv::IMREAD_ANYCOLOR);
 
     Network::Network lNet;
-    //lNet.LoadFromFile("../mmod_rear_end_vehicle_detector.dat");
+    //lNet.LoadFromFile("../mmod_rear_end_vehicle_detectorIN.dat");
     //lNet.ClassificationImage(lMat);
 
     lNet.Train();

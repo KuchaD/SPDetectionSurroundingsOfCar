@@ -27,12 +27,12 @@ namespace Network
 
     template <long num_filters, typename SUBNET> using level = relu<bn_con<con<num_filters,5,5,2,2,relu<bn_con<con<num_filters,5,5,1,1,SUBNET>>>>>>;
 
-    template <typename SUBNET> using block_b1 = relu<con<4,1,1,1,1,level<32,SUBNET>>>;
-    template <typename SUBNET> using block_b2 = relu<con<4,3,3,1,1,level<32,SUBNET>>>;
-    template <typename SUBNET> using block_b3 = relu<con<4,1,1,1,1,max_pool<3,3,1,1,level<32,SUBNET>>>>;
+    template <typename SUBNET> using block_b1 = relu<con<4,1,1,1,1,SUBNET>>;
+    template <typename SUBNET> using block_b2 = relu<con<4,3,3,1,1,SUBNET>>;
+    template <typename SUBNET> using block_b3 = relu<con<4,1,1,1,1,max_pool<3,3,1,1,SUBNET>>>;
     template <typename SUBNET> using incept_b = inception3<block_b1,block_b2,block_b3,SUBNET>;
 
-    using net_type = loss_mmod<con<1,6,6,1,1, incept_b<input_rgb_image_pyramid<pyramid_down<6>>>>>;
+    using net_type = loss_mmod<level<32,incept_b<input_rgb_image_pyramid<pyramid_down<6>>>>>;
 
 
     class Network
