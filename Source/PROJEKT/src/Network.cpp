@@ -244,7 +244,7 @@ namespace Network
         // vehicle dataset, there will be 3 sliding window detectors, so we will be setting
         // num_filters to 3 here.
 
-        //net.subnet().layer_details().set_num_filters(options.detector_windows.size());
+        net.subnet().layer_details().set_num_filters(options.detector_windows.size());
 
 
         dnn_trainer<net_type> trainer(net,sgd(0.0001,0.9));
