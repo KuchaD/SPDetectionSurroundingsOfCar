@@ -3,7 +3,7 @@
 cmake_minimum_required(VERSION 3.12)
 # Every project needs a name.  We call this the "examples" project.
 project(PROJEKT)
-#find_package( OpenCV REQUIRED )
+find_package( OpenCV REQUIRED )
 
 # Tell cmake we will need dlib.  This command will pull in dlib and compile it
 # into your project.  Note that you don't need to compile or install dlib.  All
@@ -24,5 +24,5 @@ add_executable(DNN main.cpp src/Network.cpp src/Network.h utils/Utils.h utils/Ut
 # depends on dlib.  You do that with this statement:
 target_link_libraries(DNN dlib::dlib)
 
-#target_link_libraries(DNN  ${OpenCV_LIBS} )
+target_link_libraries(DNN  ${OpenCV_LIBS} )
 

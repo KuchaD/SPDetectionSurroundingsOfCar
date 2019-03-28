@@ -110,6 +110,13 @@ DNN: CMakeFiles/DNN.dir/src/Network.cpp.o
 DNN: CMakeFiles/DNN.dir/utils/Utils.cpp.o
 DNN: CMakeFiles/DNN.dir/build.make
 DNN: dlib_build/libdlib.a
+DNN: /usr/local/lib/libopencv_dnn.so.3.4.4
+DNN: /usr/local/lib/libopencv_ml.so.3.4.4
+DNN: /usr/local/lib/libopencv_objdetect.so.3.4.4
+DNN: /usr/local/lib/libopencv_shape.so.3.4.4
+DNN: /usr/local/lib/libopencv_stitching.so.3.4.4
+DNN: /usr/local/lib/libopencv_superres.so.3.4.4
+DNN: /usr/local/lib/libopencv_videostab.so.3.4.4
 DNN: /usr/lib/x86_64-linux-gnu/libnsl.so
 DNN: /usr/lib/x86_64-linux-gnu/libSM.so
 DNN: /usr/lib/x86_64-linux-gnu/libICE.so
@@ -121,6 +128,16 @@ DNN: /usr/lib/x86_64-linux-gnu/libjpeg.so
 DNN: /usr/lib/x86_64-linux-gnu/libcblas.so
 DNN: /usr/lib/x86_64-linux-gnu/liblapack.so
 DNN: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+DNN: /usr/local/lib/libopencv_calib3d.so.3.4.4
+DNN: /usr/local/lib/libopencv_features2d.so.3.4.4
+DNN: /usr/local/lib/libopencv_flann.so.3.4.4
+DNN: /usr/local/lib/libopencv_highgui.so.3.4.4
+DNN: /usr/local/lib/libopencv_photo.so.3.4.4
+DNN: /usr/local/lib/libopencv_video.so.3.4.4
+DNN: /usr/local/lib/libopencv_videoio.so.3.4.4
+DNN: /usr/local/lib/libopencv_imgcodecs.so.3.4.4
+DNN: /usr/local/lib/libopencv_imgproc.so.3.4.4
+DNN: /usr/local/lib/libopencv_core.so.3.4.4
 DNN: CMakeFiles/DNN.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daveliinux/GIT/SPDetectionSurroundingsOfCar/Source/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DNN"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DNN.dir/link.txt --verbose=$(VERBOSE)

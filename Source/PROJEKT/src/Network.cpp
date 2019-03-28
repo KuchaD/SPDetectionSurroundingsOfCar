@@ -11,7 +11,7 @@
 #include <dlib/image_processing.h>
 #include <dlib/data_io.h>
 #include <ctime>
-//#include "opencv2/opencv.hpp"
+#include "opencv2/opencv.hpp"
 
 
 using namespace std;
@@ -28,7 +28,7 @@ namespace Network
         deserialize(aFilePath) >> net;
 
     }
-/*
+
     void Network::ClassificationImage(cv::Mat Image)
     {
 
@@ -58,7 +58,7 @@ namespace Network
 
 
     }
-*/
+
     int Network::ignore_overlapped_boxes(std::vector<mmod_rect> &boxes, const test_box_overlap &overlaps) {
         int num_ignored = 0;
         for (size_t i = 0; i < boxes.size(); ++i)

@@ -62,7 +62,7 @@ namespace Network
     public:
         ~Network(void);
         void LoadFromFile(std::string aFilePath);
-        //void ClassificationImage(cv::Mat Image);
+        void ClassificationImage(cv::Mat Image);
         void Train();
         int ignore_overlapped_boxes(std::vector<mmod_rect>& boxes,const test_box_overlap& overlaps);
 

@@ -83,7 +83,7 @@ catch(std::exception& e)
 #include <dlib/data_io.h>
 #include "src/Network.h"
 #include <dlib/opencv.h>
-//#include "opencv2/opencv.hpp"
+#include "opencv2/opencv.hpp"
 
 using namespace std;
 using namespace dlib;
@@ -93,13 +93,13 @@ using namespace dlib;
 
 int main(int argc, char** argv) try
 {
-    //cv::Mat lMat = cv::imread("../011551-R.jpg",cv::IMREAD_ANYCOLOR);
+    cv::Mat lMat = cv::imread("../011551-R.jpg",cv::IMREAD_ANYCOLOR);
 
     Network::Network lNet;
-    //lNet.LoadFromFile("../mmod_rear_end_vehicle_detectorIN.dat");
-    //lNet.ClassificationImage(lMat);
+    lNet.LoadFromFile("../mmod_rear_end_vehicle_detectorIN.dat");
+    lNet.ClassificationImage(lMat);
 
-    lNet.Train();
+    //lNet.Train();
     return 0;
 
 }

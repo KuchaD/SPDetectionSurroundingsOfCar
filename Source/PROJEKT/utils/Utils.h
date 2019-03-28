@@ -7,7 +7,7 @@
 
 #include <dlib/geometry/rectangle.h>
 #include <opencv2/core/types.hpp>
-/*
+
 namespace Utils
 {
     class DlibOpenCV
@@ -17,7 +17,7 @@ namespace Utils
 
     };
 }
-*/
+
 
 
 #endif //PROJEKT_UTILS_H
